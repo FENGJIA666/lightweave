@@ -1,3 +1,5 @@
+> Historical v1 local-review record. The current public soundtrack is documented in [validation](validation.md).
+
 # LightWeave validation
 
 Recorded 24 October 2026 (Singapore). The tested product uses one mirror and three receivers.

@@ -1,0 +1,309 @@
+{
+  "subject": "Objective audio replacement checks; no new subjective listening claim",
+  "input_exclusion": "Audio inputs consist solely of native Preview master plus fresh public Kokoro PCM; prior v2 contributes map0:v:0 only.",
+  "audio_packet_sha256": {
+    "LightWeave-demo-v2-public-captioned.mp4": "09147ab51f360efe2a50c17dbaef483b4992b18e85a159caa894922c57f6944e",
+    "LightWeave-demo-v2-public-clean.mp4": "09147ab51f360efe2a50c17dbaef483b4992b18e85a159caa894922c57f6944e"
+  },
+  "cues": [
+    {
+      "cue": "01-explainer-00",
+      "duration": 2.3161666666666667,
+      "window": [
+        0.35,
+        2.688
+      ],
+      "speech_end": 2.666166666666667,
+      "raw_last75ms_peak": 0.00042724609375,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "01-explainer-01",
+      "duration": 1.7725416666666667,
+      "window": [
+        4.3,
+        6.092
+      ],
+      "speech_end": 6.072541666666666,
+      "raw_last75ms_peak": 0.00042724609375,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "01-explainer-02",
+      "duration": 2.4722916666666666,
+      "window": [
+        7.4,
+        9.896
+      ],
+      "speech_end": 9.872291666666667,
+      "raw_last75ms_peak": 0.00042724609375,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "01-explainer-03",
+      "duration": 3.2045,
+      "window": [
+        13.4,
+        17.14
+      ],
+      "speech_end": 16.6045,
+      "raw_last75ms_peak": 0.000396728515625,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "05-angle-00",
+      "duration": 1.7935833333333333,
+      "window": [
+        20.35,
+        22.168
+      ],
+      "speech_end": 22.143583333333336,
+      "raw_last75ms_peak": 0.000396728515625,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "05-angle-01",
+      "duration": 2.322583333333333,
+      "window": [
+        22.168,
+        24.506
+      ],
+      "speech_end": 24.490583333333333,
+      "raw_last75ms_peak": 0.000457763671875,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "05-angle-02",
+      "duration": 4.490625,
+      "window": [
+        24.506,
+        29.092
+      ],
+      "speech_end": 28.996625,
+      "raw_last75ms_peak": 0.000396728515625,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "06-completion-00",
+      "duration": 2.688041666666667,
+      "window": [
+        40.35,
+        43.43
+      ],
+      "speech_end": 43.03804166666667,
+      "raw_last75ms_peak": 0.00048828125,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "06-completion-01",
+      "duration": 2.653208333333333,
+      "window": [
+        43.43,
+        46.097
+      ],
+      "speech_end": 46.08320833333333,
+      "raw_last75ms_peak": 0.0003662109375,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "06-completion-02",
+      "duration": 3.418083333333333,
+      "window": [
+        52.0,
+        55.432
+      ],
+      "speech_end": 55.418083333333335,
+      "raw_last75ms_peak": 0.00048828125,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "07-achievement-00",
+      "duration": 7.243291666666667,
+      "window": [
+        65.35,
+        72.61
+      ],
+      "speech_end": 72.59329166666666,
+      "raw_last75ms_peak": 0.000396728515625,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "07-achievement-01",
+      "duration": 1.8284583333333333,
+      "window": [
+        72.61,
+        74.449
+      ],
+      "speech_end": 74.43845833333333,
+      "raw_last75ms_peak": 0.00042724609375,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "07-achievement-02",
+      "duration": 2.3377916666666665,
+      "window": [
+        74.449,
+        76.794
+      ],
+      "speech_end": 76.78679166666666,
+      "raw_last75ms_peak": 0.0003662109375,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "08-reset-00",
+      "duration": 2.0885416666666665,
+      "window": [
+        85.35,
+        87.459
+      ],
+      "speech_end": 87.43854166666667,
+      "raw_last75ms_peak": 0.000457763671875,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "08-reset-01",
+      "duration": 3.843583333333333,
+      "window": [
+        87.459,
+        91.314
+      ],
+      "speech_end": 91.30258333333333,
+      "raw_last75ms_peak": 0.000213623046875,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "03-interaction-00",
+      "duration": 1.5977916666666667,
+      "window": [
+        99.35,
+        100.961
+      ],
+      "speech_end": 100.94779166666666,
+      "raw_last75ms_peak": 0.00048828125,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "03-interaction-01",
+      "duration": 3.1496666666666666,
+      "window": [
+        100.961,
+        104.232
+      ],
+      "speech_end": 104.11066666666666,
+      "raw_last75ms_peak": 0.00042724609375,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "03-interaction-02",
+      "duration": 3.0930416666666667,
+      "window": [
+        104.232,
+        107.333
+      ],
+      "speech_end": 107.32504166666666,
+      "raw_last75ms_peak": 0.000335693359375,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "09-close-00",
+      "duration": 0.671375,
+      "window": [
+        121.7,
+        122.389
+      ],
+      "speech_end": 122.371375,
+      "raw_last75ms_peak": 0.000457763671875,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "09-close-01",
+      "duration": 0.8070833333333334,
+      "window": [
+        122.389,
+        123.212
+      ],
+      "speech_end": 123.19608333333333,
+      "raw_last75ms_peak": 0.00048828125,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    },
+    {
+      "cue": "09-close-02",
+      "duration": 1.186125,
+      "window": [
+        123.212,
+        124.41
+      ],
+      "speech_end": 124.39812500000001,
+      "raw_last75ms_peak": 0.000457763671875,
+      "tail_below_minus65dbfs": true,
+      "text_tokens_have_phonemes": true,
+      "fit": "pass"
+    }
+  ],
+  "all21_fit_without_waveform_truncation": true,
+  "max_tempo": 1.3456952811244989,
+  "native_checks": [
+    {
+      "label": "opening-native-tail",
+      "source_start": 105.8,
+      "edit_nominal_start": 17.8,
+      "seconds": 1.6,
+      "lag_samples": 1009,
+      "lag_ms": 21.020833333333332,
+      "correlation": 0.9999351932034827,
+      "gain": 0.8481889367103577
+    },
+    {
+      "label": "second-run-native-tail",
+      "source_start": 231,
+      "edit_nominal_start": 110,
+      "seconds": 1.5,
+      "lag_samples": 1009,
+      "lag_ms": 21.020833333333332,
+      "correlation": 0.9999504965522452,
+      "gain": 0.8484481573104858
+    }
+  ],
+  "video_start_ms": 21.029,
+  "source_av_difference_ms": 0.008166666666667766
+}

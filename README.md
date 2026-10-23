@@ -6,6 +6,12 @@ One mirror. Three discoveries. LightWeave turns a change in mirror angle into a 
 
 Created for curious learners and first-time spatial puzzle players, the experience makes a clear connection visible: **turn the mirror → shape the light → earn a bloom**.
 
+## Watch the demonstration
+
+[Watch LightWeave on YouTube](https://youtu.be/N6D_f7aWozo) — a 125-second journey from three flower buds to a complete garden, followed by Replay and a second run.
+
+The public narration uses **Kokoro-82M v1.0 / af_heart**. Its [source and license record](media/video/v2-public/license/README.md), [video validation](docs/validation.md) and [reproduction guide](media/video/v2-public/REPRODUCE.md) accompany the original Lens Studio footage.
+
 ## Play the garden
 
 1. Pinch and drag the mirror to change its yaw and pitch.

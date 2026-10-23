@@ -1,3 +1,5 @@
+> Historical local-review v2 script. Use [the v2-public script](video-script-v2-public-en.md) for the public demonstration.
+
 # LightWeave — v2 demonstration script
 
 125 seconds. The opening explains the goal and the visible objects before the first genuine bloom. This edit preserves the complete 0 → 1 → 2 → 3 → Replay → 0 → 1 → 2 → 3 progression.

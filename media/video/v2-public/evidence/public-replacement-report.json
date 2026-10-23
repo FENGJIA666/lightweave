@@ -1,0 +1,99 @@
+{
+  "stage": "Public narration replacement",
+  "base_edit_sha256": "a1d660d0cbf16de12b79d80fc37887edf9a541f851409f1834da2658830d11fe",
+  "public_edit_sha256": "2f5e4231a8136e247074ec1f929ab442c7d4bdb2be4e5fa99f763a7a0f8c0804",
+  "picture_and_captions_unchanged": true,
+  "system_voice_audio_inputs": [],
+  "mix_inputs": [
+    {
+      "native_source": "media/video/raw/LightWeave-native-two-runs.mp4",
+      "native_sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+      "native_start": 88,
+      "duration": 20,
+      "narration": "media/video/v2-public/voice/01-explainer.wav",
+      "narration_sha256": "efc94e63c8a3dd13914d05f2b3bd8bacdf6670aaa286157d5959ed37f0ab6766"
+    },
+    {
+      "native_source": "media/video/raw/LightWeave-native-two-runs.mp4",
+      "native_sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+      "native_start": 122,
+      "duration": 20,
+      "narration": "media/video/v2-public/voice/05-angle.wav",
+      "narration_sha256": "a385da2d4a88e1b5fa82213cac7d204702ad2c72f99c3c626524eefff9150cbf"
+    },
+    {
+      "native_source": "media/video/raw/LightWeave-native-two-runs.mp4",
+      "native_sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+      "native_start": 154,
+      "duration": 25,
+      "narration": "media/video/v2-public/voice/06-completion.wav",
+      "narration_sha256": "4c5fdda5538f2e87324f7ab824f09aa1bd58f68a7ee9fa3fd712e7a1a23fe919"
+    },
+    {
+      "native_source": "media/video/raw/LightWeave-native-two-runs.mp4",
+      "native_sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+      "native_start": 180,
+      "duration": 20,
+      "narration": "media/video/v2-public/voice/07-achievement.wav",
+      "narration_sha256": "7cfaf29e478115e16e4dd033d387c75234a1a4e95d2b50dbda3bc59a92b4befa"
+    },
+    {
+      "native_source": "media/video/raw/LightWeave-native-two-runs.mp4",
+      "native_sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+      "native_start": 206,
+      "duration": 14,
+      "narration": "media/video/v2-public/voice/08-reset.wav",
+      "narration_sha256": "5b8da8d209857ad6b078ade01a9160100b738bc236cdac027730aed3d1c6826d"
+    },
+    {
+      "native_source": "media/video/raw/LightWeave-native-two-runs.mp4",
+      "native_sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+      "native_start": 220,
+      "duration": 20,
+      "narration": "media/video/v2-public/voice/03-interaction.wav",
+      "narration_sha256": "40cc7ba5b6f479000c562fa4ed07de83413f88484329d791a1751f5c6a6430ac"
+    },
+    {
+      "native_source": "media/video/raw/LightWeave-native-two-runs.mp4",
+      "native_sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+      "native_start": 240,
+      "duration": 6,
+      "narration": "media/video/v2-public/voice/09-close.wav",
+      "narration_sha256": "f53839b56857c5b0065d8cbf3a9618194925eb9a9d20375e382b42304b7ef5ff"
+    }
+  ],
+  "source_gate": {
+    "duration_seconds": 125,
+    "preview_seconds": 125.0,
+    "preview_fraction": 1.0,
+    "pending_sources": []
+  },
+  "exports": {
+    "captioned": {
+      "path": "media/video/v2-public/output/LightWeave-demo-v2-public-captioned.mp4",
+      "sha256": "633c103f363e1be67122db242d3f02434ca4195678386cd214e6606da8835cda",
+      "size_bytes": 8058653,
+      "duration": 125.021029,
+      "video_frames": 3750,
+      "video_start": "0.021029",
+      "audio_start": "0.000000",
+      "audio_delay_samples": 1009,
+      "copied_picture_packet_sha256": "329cb0b288ed7295c0c10056a530ead3aa8f93c11b7414e010d138924f4c7df6",
+      "picture_packet_match": true,
+      "decoded": true
+    },
+    "clean": {
+      "path": "media/video/v2-public/output/LightWeave-demo-v2-public-clean.mp4",
+      "sha256": "8276d9e92c057be047bc3e2ba0f75a854a18e554fcebf72192d91bd497dee3ff",
+      "size_bytes": 7844860,
+      "duration": 125.021029,
+      "video_frames": 3750,
+      "video_start": "0.021029",
+      "audio_start": "0.000000",
+      "audio_delay_samples": 1009,
+      "copied_picture_packet_sha256": "a6558ee043fd85a2788dcc8accdc7d1e536f53a2d49db60c513dc11ee9d22e23",
+      "picture_packet_match": true,
+      "decoded": true
+    }
+  }
+}

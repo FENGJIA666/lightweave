@@ -20,3 +20,8 @@ The archive uses an explicit file list and includes required SDK packages, origi
 ## Presentation v2 delta
 
 The v2 archive starts from the exact independently reviewed v1 ZIP. All 77 Assets/Packages/project files are copied unchanged from that archive; no iCloud product-source read, Lens opening, recompile or additional product test was performed for this editorial delta. Only the approved documents and versioned editorial records changed. [DELTA_MANIFEST.json](../DELTA_MANIFEST.json) identifies the complete change set, and [MEDIA_MANIFEST.json](../MEDIA_MANIFEST.json) identifies the separate final films. The earlier package-open result applies to the unchanged runnable files.
+
+
+## Public narration revision
+
+The current repository adds public narration provenance, reproducible scripts and a new video URL. Its 77 runnable files still match the original reviewed commit. Frozen ZIPs and their historical delivery metadata remain unchanged; current media and repository fingerprints are recorded separately in `MEDIA_MANIFEST.json`, `DELIVERY_MANIFEST.json` and `SHA256SUMS`.

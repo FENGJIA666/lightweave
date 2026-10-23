@@ -1,43 +1,79 @@
 {
-  "status": "frozen-local-v2-delivery",
+  "status": "v2-public-narration-revision",
+  "youtube_url": "https://youtu.be/N6D_f7aWozo",
   "files": [
     {
-      "filename": "LightWeave-demo-v2-captioned.mp4",
-      "sha256": "974ede5e9d5478fb735d9b7726c8edaf276525d6a9418dc064977c2bcd557962",
-      "bytes": 8055930,
-      "duration_seconds": 125.021333,
-      "delivery": "separate accompanying file"
+      "filename": "LightWeave-demo-v2-public-captioned.mp4",
+      "sha256": "633c103f363e1be67122db242d3f02434ca4195678386cd214e6606da8835cda",
+      "bytes": 8058653,
+      "duration_seconds": 125.021029,
+      "video_frames": 3750,
+      "picture_packet_sha256": "329cb0b288ed7295c0c10056a530ead3aa8f93c11b7414e010d138924f4c7df6",
+      "delivery": "separate accompanying file",
+      "youtube_url": "https://youtu.be/N6D_f7aWozo"
     },
     {
-      "filename": "LightWeave-demo-v2-clean.mp4",
-      "sha256": "3a22a5271e95a234f972605cab470cd689c4dae066cf42351d5fe6c565b30435",
-      "bytes": 7842081,
-      "duration_seconds": 125.021333,
-      "delivery": "separate accompanying file"
+      "filename": "LightWeave-demo-v2-public-clean.mp4",
+      "sha256": "8276d9e92c057be047bc3e2ba0f75a854a18e554fcebf72192d91bd497dee3ff",
+      "bytes": 7844860,
+      "duration_seconds": 125.021029,
+      "video_frames": 3750,
+      "picture_packet_sha256": "a6558ee043fd85a2788dcc8accdc7d1e536f53a2d49db60c513dc11ee9d22e23",
+      "delivery": "separate accompanying file",
+      "youtube_url": null
     }
   ],
-  "preserved_v1": {
-    "status": "local-delivery",
+  "narration": {
+    "engine": "Kokoro 0.9.4",
+    "model": "Kokoro-82M v1.0",
+    "voice": "af_heart",
+    "license": "Apache-2.0",
+    "license_record": "media/video/v2-public/license/README.md",
+    "measured_cues": 21
+  },
+  "local_review_history": {
+    "status": "local-review-history",
     "files": [
       {
-        "filename": "LightWeave-demo-captioned.mp4",
-        "sha256": "3a60918c99ca960adad121cfcd5934001c61482e4a11dafc7a2974ff94d13ca9",
-        "bytes": 9401828,
-        "duration_seconds": 150.021333,
-        "width": 1920,
-        "height": 1080,
-        "delivery": "separate accompanying file; not embedded in the project archive"
+        "filename": "LightWeave-demo-v2-captioned.mp4",
+        "sha256": "974ede5e9d5478fb735d9b7726c8edaf276525d6a9418dc064977c2bcd557962",
+        "bytes": 8055930,
+        "duration_seconds": 125.021333,
+        "delivery": "separate accompanying file"
       },
       {
-        "filename": "LightWeave-demo-clean.mp4",
-        "sha256": "c06c5099db31573966947328d1f64d34f400a497169a0d13e54f5470767675df",
-        "bytes": 9160138,
-        "duration_seconds": 150.021333,
-        "width": 1920,
-        "height": 1080,
-        "delivery": "separate accompanying file; not embedded in the project archive"
+        "filename": "LightWeave-demo-v2-clean.mp4",
+        "sha256": "3a22a5271e95a234f972605cab470cd689c4dae066cf42351d5fe6c565b30435",
+        "bytes": 7842081,
+        "duration_seconds": 125.021333,
+        "delivery": "separate accompanying file"
       }
-    ]
+    ],
+    "preserved_v1": {
+      "status": "local-review-history",
+      "files": [
+        {
+          "filename": "LightWeave-demo-captioned.mp4",
+          "sha256": "3a60918c99ca960adad121cfcd5934001c61482e4a11dafc7a2974ff94d13ca9",
+          "bytes": 9401828,
+          "duration_seconds": 150.021333,
+          "width": 1920,
+          "height": 1080,
+          "delivery": "separate accompanying file; not embedded in the project archive"
+        },
+        {
+          "filename": "LightWeave-demo-clean.mp4",
+          "sha256": "c06c5099db31573966947328d1f64d34f400a497169a0d13e54f5470767675df",
+          "bytes": 9160138,
+          "duration_seconds": 150.021333,
+          "width": 1920,
+          "height": 1080,
+          "delivery": "separate accompanying file; not embedded in the project archive"
+        }
+      ]
+    },
+    "user_comprehension": "pending-feedback",
+    "subjective_listening": "pending-user-approval"
   },
   "user_comprehension": "pending-feedback",
   "subjective_listening": "pending-user-approval"

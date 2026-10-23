@@ -1,4 +1,4 @@
-# LightWeave v2 evidence index
+# LightWeave public evidence index
 
 This index connects the delivered experience to its included evidence. [Delivery status](../../DELIVERY_STATUS.md) records the frozen local scope.
 
@@ -17,4 +17,6 @@ This index connects the delivered experience to its included evidence. [Delivery
 
 Numerical tests, desktop Preview results and on-device validation are distinct scopes. User listening feedback remains pending.
 
-The [v2 script](video-script-v2-en.md) explains the visible objects before the first actual bloom. The [v1 script](video-script-en.md) is preserved as version history. User comprehension feedback and subjective listening approval remain pending.
+The [public script](video-script-v2-public-en.md) explains the visible objects before the first actual bloom. The [v1 script](video-script-en.md) and [local-review v2 script](video-script-v2-en.md) are preserved as version history. User comprehension feedback and subjective listening approval remain pending.
+
+The public soundtrack uses [Kokoro-82M / af_heart](../../media/video/v2-public/license/README.md), with [measured cue timing](../../media/video/v2-public/voice-sync.json).

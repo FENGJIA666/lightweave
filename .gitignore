@@ -1,0 +1,38 @@
+# Lens-generated local editor state
+Cache/
+Support/
+Workspaces/
+PluginsUserPreferences/
+.agents/
+.clad/
+.codex/
+.cursor/
+.mcp.json
+.virtual-scene.json
+ls-live-instance.json
+.DS_Store
+
+# New private notes are excluded; already-reviewed tracked records stay tracked.
+docs/internal/
+
+# External and regenerated video-production inputs
+.venv*/
+__pycache__/
+*.pyc
+media/video/raw/
+media/video/voice/
+media/video/work/
+media/video/output/
+media/video/v2/output/
+media/video/v2/work/
+media/video/v2/voice/
+media/video/v2-public/output/
+media/video/v2-public/work/
+media/video/v2-public/voice/
+models/
+*.pth
+*.pt
+.env
+.env.*
+*.pem
+*.key

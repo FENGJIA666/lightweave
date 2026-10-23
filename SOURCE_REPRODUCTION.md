@@ -34,3 +34,8 @@ node scripts/test-optics.mjs
 ```
 
 The test runner resolves the same extensionless TypeScript Core source that Lens compiles. Native Lens Preview and LEAF observations are documented separately.
+
+
+## Public demonstration narration
+
+[The public reproduction guide](media/video/v2-public/REPRODUCE.md) covers the new narration and video-only remux. The required external native recording, frozen picture inputs and official model artifacts are explicitly listed. This is separate from opening and running the delivered Lens project.

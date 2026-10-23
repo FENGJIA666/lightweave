@@ -19,3 +19,8 @@ Copyright 2026 Devpost. The original MIT license accompanies them at [vendor/dev
 The project uses the official SPECS Base Template for Lens Studio 5.23.2, including its render assets, plus the unmodified official packages in `Packages/`: Spectacles Interaction Kit, Spectacles UIKit, Leaf, AiPreviewAgentInspect and AiPreviewAgentInteract. Their original `.lspkg` archives and supplied source notices remain intact. Lens Studio, its APIs and Snap products remain governed by their applicable Snap terms; the CLAD Apache license is not a license grant for these SDK packages.
 
 The Spectacles Interaction Kit package includes the One Euro Filter implementation credited to Gery Casiez, Copyright 2019 Inria, under BSD-3-Clause. Its complete supplied notice is preserved in [ONE_EURO_FILTER_NOTICE.txt](ONE_EURO_FILTER_NOTICE.txt) and in the original package source.
+
+
+## Public demonstration narration
+
+The narration uses hexgrad's Kokoro-82M v1.0 model, official af_heart preset and Kokoro inference code. The official model card declares Apache-2.0; the inference code's Apache-2.0 license is preserved in [the narration license bundle](media/video/v2-public/license/README.md), alongside the model card, voice catalog, source URLs and exact artifact fingerprints. Model and voice weights are external production inputs. This attribution identifies the upstream source and does not imply endorsement.

@@ -84,4 +84,9 @@ User feedback requested clearer visual meaning after viewing the original sound-
 
 The v2 edit is 125.021333 seconds. Its sequence follows first-run 0→1→2→3, actual Replay, then second-run 0→1→2→3. It uses only the recorded Preview footage, original audio, and revised English explanation. Root reviewed the opening role labels and final contact sheet; Anti checked the pointer endpoints across the mirror rotation. The final gold flower is fully open with 3/3 before the closing invitation. The user has been shown the 20-second opening and asked whether the gameplay is clear; that response and explicit subjective audio feedback remain pending.
 
-Current captioned movie: `LightWeave-demo-v2-captioned.mp4`, SHA-256 `974ede5e9d5478fb735d9b7726c8edaf276525d6a9418dc064977c2bcd557962`. Clean movie SHA-256 `3a22a5271e95a234f972605cab470cd689c4dae066cf42351d5fe6c565b30435`. Public validation and the version 2 script identify the current edit; v1 remains a preserved prior version. Original runtime, 40 core tests and 5 LEAF results are unchanged.
+Historical local-review v2 captioned movie: `LightWeave-demo-v2-captioned.mp4`, SHA-256 `974ede5e9d5478fb735d9b7726c8edaf276525d6a9418dc064977c2bcd557962`. Clean movie SHA-256 `3a22a5271e95a234f972605cab470cd689c4dae066cf42351d5fe6c565b30435`. Public validation and the version 2 script identify the current edit; v1 remains a preserved prior version. Original runtime, 40 core tests and 5 LEAF results are unchanged.
+
+
+## Public narration revision
+
+The public revision retains the v2 picture and caption streams, while replacing every narration cue with Kokoro-82M / af_heart and mixing directly from native Preview sound. See [current validation](../validation.md), [the media manifest](../../MEDIA_MANIFEST.json), and [the narration notice](../../media/video/v2-public/license/README.md). Prior v1/v2 movie fingerprints above remain local-review history. Runtime source and acceptance evidence are unchanged.

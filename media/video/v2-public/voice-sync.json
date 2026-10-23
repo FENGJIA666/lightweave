@@ -1,0 +1,1535 @@
+[
+  {
+    "key": {
+      "text": "Your goal is to make all three flowers bloom.",
+      "spoken_text": "Your goal is to make all three flowers bloom.",
+      "start": 0.35,
+      "end": 2.688,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "01-explainer",
+    "caption_index": 0,
+    "global_start": 0.35,
+    "global_end": 2.666166666666667,
+    "visual_window": [
+      0.35,
+      2.688
+    ],
+    "raw_seconds": 2.95,
+    "trimmed_seconds": 2.3602916666666665,
+    "trim_samples_24k": [
+      5293,
+      61940
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0204460296872746,
+    "duration": 2.3161666666666667,
+    "phonemes": "jˌʊɹ ɡˈOl ɪz tə mˌAk ˈɔl θɹˈi flˈWəɹz blˈum.",
+    "tokens": [
+      {
+        "text": "Your",
+        "phonemes": "jˌʊɹ"
+      },
+      {
+        "text": "goal",
+        "phonemes": "ɡˈOl"
+      },
+      {
+        "text": "is",
+        "phonemes": "ɪz"
+      },
+      {
+        "text": "to",
+        "phonemes": "tə"
+      },
+      {
+        "text": "make",
+        "phonemes": "mˌAk"
+      },
+      {
+        "text": "all",
+        "phonemes": "ˈɔl"
+      },
+      {
+        "text": "three",
+        "phonemes": "θɹˈi"
+      },
+      {
+        "text": "flowers",
+        "phonemes": "flˈWəɹz"
+      },
+      {
+        "text": "bloom",
+        "phonemes": "blˈum"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "065dce440fd74489571630441c33b954e985686f18e17de2fd1333a9afc5ea29",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Light starts at this golden orb.",
+      "spoken_text": "Light starts at this golden orb.",
+      "start": 4.3,
+      "end": 6.092,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "01-explainer",
+    "caption_index": 1,
+    "global_start": 4.3,
+    "global_end": 6.072541666666666,
+    "visual_window": [
+      4.3,
+      6.092
+    ],
+    "raw_seconds": 2.375,
+    "trimmed_seconds": 1.7977916666666667,
+    "trim_samples_24k": [
+      5391,
+      48538
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0174259573665347,
+    "duration": 1.7725416666666667,
+    "phonemes": "lˈIt stˈɑɹts æt ðɪs ɡˈOldən ˈɔɹb.",
+    "tokens": [
+      {
+        "text": "Light",
+        "phonemes": "lˈIt"
+      },
+      {
+        "text": "starts",
+        "phonemes": "stˈɑɹts"
+      },
+      {
+        "text": "at",
+        "phonemes": "æt"
+      },
+      {
+        "text": "this",
+        "phonemes": "ðɪs"
+      },
+      {
+        "text": "golden",
+        "phonemes": "ɡˈOldən"
+      },
+      {
+        "text": "orb",
+        "phonemes": "ˈɔɹb"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "946421e76fa88bc6c6ec07ad432fd094897f544e074f72b86909f7e3f0f75fb2",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Turn the mirror to aim the beam at a flower’s center.",
+      "spoken_text": "Turn the mirror to aim the beam at a flower’s center.",
+      "start": 7.4,
+      "end": 9.896,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "01-explainer",
+    "caption_index": 2,
+    "global_start": 7.4,
+    "global_end": 9.872291666666667,
+    "visual_window": [
+      7.4,
+      9.896
+    ],
+    "raw_seconds": 3.175,
+    "trimmed_seconds": 2.5505,
+    "trim_samples_24k": [
+      5424,
+      66636
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0321732092270333,
+    "duration": 2.4722916666666666,
+    "phonemes": "tˈɜɹn ðə mˈɪɹəɹ tʊ ˈAm ðə bˈim æt ɐ flˈWəɹz sˈɛntəɹ.",
+    "tokens": [
+      {
+        "text": "Turn",
+        "phonemes": "tˈɜɹn"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "mirror",
+        "phonemes": "mˈɪɹəɹ"
+      },
+      {
+        "text": "to",
+        "phonemes": "tʊ"
+      },
+      {
+        "text": "aim",
+        "phonemes": "ˈAm"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "beam",
+        "phonemes": "bˈim"
+      },
+      {
+        "text": "at",
+        "phonemes": "æt"
+      },
+      {
+        "text": "a",
+        "phonemes": "ɐ"
+      },
+      {
+        "text": "flower’s",
+        "phonemes": "flˈWəɹz"
+      },
+      {
+        "text": "center",
+        "phonemes": "sˈɛntəɹ"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "ab5d5b8f41f581cc8fd5cf67b2517db4711532ca00c498f9fbb4c3ffe29ef8ef",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Watch the petals open—one flower complete, two to go.",
+      "spoken_text": "Watch the petals open—one flower complete, two to go.",
+      "start": 13.4,
+      "end": 17.14,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "01-explainer",
+    "caption_index": 3,
+    "global_start": 13.4,
+    "global_end": 16.6045,
+    "visual_window": [
+      13.4,
+      17.14
+    ],
+    "raw_seconds": 3.8,
+    "trimmed_seconds": 3.209416666666667,
+    "trim_samples_24k": [
+      5471,
+      82497
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0,
+    "duration": 3.2045,
+    "phonemes": "wˈɑʧ ðə pˈɛTᵊlz ˈOpᵊn—wˈʌn flˈWəɹ kəmplˈit, tˈu tə ɡˌO.",
+    "tokens": [
+      {
+        "text": "Watch",
+        "phonemes": "wˈɑʧ"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "petals",
+        "phonemes": "pˈɛTᵊlz"
+      },
+      {
+        "text": "open",
+        "phonemes": "ˈOpᵊn"
+      },
+      {
+        "text": "—",
+        "phonemes": "—"
+      },
+      {
+        "text": "one",
+        "phonemes": "wˈʌn"
+      },
+      {
+        "text": "flower",
+        "phonemes": "flˈWəɹ"
+      },
+      {
+        "text": "complete",
+        "phonemes": "kəmplˈit"
+      },
+      {
+        "text": ",",
+        "phonemes": ","
+      },
+      {
+        "text": "two",
+        "phonemes": "tˈu"
+      },
+      {
+        "text": "to",
+        "phonemes": "tə"
+      },
+      {
+        "text": "go",
+        "phonemes": "ɡˌO"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "53a05e4eab50cf47e01429530a41193f012acc2f971afe4a6815655f07482790",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Now explore the next connection.",
+      "spoken_text": "Now explore the next connection.",
+      "start": 0.35,
+      "end": 2.168,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "05-angle",
+    "caption_index": 0,
+    "global_start": 20.35,
+    "global_end": 22.143583333333336,
+    "visual_window": [
+      20.35,
+      22.168
+    ],
+    "raw_seconds": 2.35,
+    "trimmed_seconds": 1.80275,
+    "trim_samples_24k": [
+      5224,
+      48490
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0054378137200222,
+    "duration": 1.7935833333333333,
+    "phonemes": "nˈW ɪksplˈɔɹ ðə nˈɛkst kənˈɛkʃən.",
+    "tokens": [
+      {
+        "text": "Now",
+        "phonemes": "nˈW"
+      },
+      {
+        "text": "explore",
+        "phonemes": "ɪksplˈɔɹ"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "next",
+        "phonemes": "nˈɛkst"
+      },
+      {
+        "text": "connection",
+        "phonemes": "kənˈɛkʃən"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "2caf6b50c7e9abb08506d1d5afe7d2d4d8a08a62bb39633101d6bc961d036b57",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Look from the mirror toward the elevated target.",
+      "spoken_text": "Look from the mirror toward the elevated target.",
+      "start": 2.168,
+      "end": 4.506,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "05-angle",
+    "caption_index": 1,
+    "global_start": 22.168,
+    "global_end": 24.490583333333333,
+    "visual_window": [
+      22.168,
+      24.506
+    ],
+    "raw_seconds": 3.15,
+    "trimmed_seconds": 2.595625,
+    "trim_samples_24k": [
+      5295,
+      67590
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.1221897968006918,
+    "duration": 2.322583333333333,
+    "phonemes": "lˈʊk fɹʌm ðə mˈɪɹəɹ tˈɔɹd ði ˈɛləvˌATᵻd tˈɑɹɡət.",
+    "tokens": [
+      {
+        "text": "Look",
+        "phonemes": "lˈʊk"
+      },
+      {
+        "text": "from",
+        "phonemes": "fɹʌm"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "mirror",
+        "phonemes": "mˈɪɹəɹ"
+      },
+      {
+        "text": "toward",
+        "phonemes": "tˈɔɹd"
+      },
+      {
+        "text": "the",
+        "phonemes": "ði"
+      },
+      {
+        "text": "elevated",
+        "phonemes": "ˈɛləvˌATᵻd"
+      },
+      {
+        "text": "target",
+        "phonemes": "tˈɑɹɡət"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "9e574538a4618c7350d6dedba8dd68ca38a7a993c41cc090f466a851bca5ff32",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "The path travels through three dimensions, making the space itself part of the puzzle.",
+      "spoken_text": "The path travels through three dimensions, making the space itself part of the puzzle.",
+      "start": 4.506,
+      "end": 9.092,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "05-angle",
+    "caption_index": 2,
+    "global_start": 24.506,
+    "global_end": 28.996625,
+    "visual_window": [
+      24.506,
+      29.092
+    ],
+    "raw_seconds": 5.1,
+    "trimmed_seconds": 4.495541666666667,
+    "trim_samples_24k": [
+      5129,
+      113022
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0,
+    "duration": 4.490625,
+    "phonemes": "ðə pˈæθ tɹˈævᵊlz θɹu θɹˈi dəmˈɛnʃənz, mˈAkɪŋ ðə spˈAs ɪtsˈɛlf pˈɑɹt ʌv ðə pˈʌzᵊl.",
+    "tokens": [
+      {
+        "text": "The",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "path",
+        "phonemes": "pˈæθ"
+      },
+      {
+        "text": "travels",
+        "phonemes": "tɹˈævᵊlz"
+      },
+      {
+        "text": "through",
+        "phonemes": "θɹu"
+      },
+      {
+        "text": "three",
+        "phonemes": "θɹˈi"
+      },
+      {
+        "text": "dimensions",
+        "phonemes": "dəmˈɛnʃənz"
+      },
+      {
+        "text": ",",
+        "phonemes": ","
+      },
+      {
+        "text": "making",
+        "phonemes": "mˈAkɪŋ"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "space",
+        "phonemes": "spˈAs"
+      },
+      {
+        "text": "itself",
+        "phonemes": "ɪtsˈɛlf"
+      },
+      {
+        "text": "part",
+        "phonemes": "pˈɑɹt"
+      },
+      {
+        "text": "of",
+        "phonemes": "ʌv"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "puzzle",
+        "phonemes": "pˈʌzᵊl"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "e2a5d7ef4188d4a2f38b205e6a50f95c22d2935d478633e160ff33c8c7e73812",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Turn, connect, and watch the next flower bloom.",
+      "spoken_text": "Turn, connect, and watch the next flower bloom.",
+      "start": 0.35,
+      "end": 3.43,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "06-completion",
+    "caption_index": 0,
+    "global_start": 40.35,
+    "global_end": 43.03804166666667,
+    "visual_window": [
+      40.35,
+      43.43
+    ],
+    "raw_seconds": 3.275,
+    "trimmed_seconds": 2.6937083333333334,
+    "trim_samples_24k": [
+      5254,
+      69903
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0,
+    "duration": 2.688041666666667,
+    "phonemes": "tˈɜɹn, kənˈɛkt, ænd wˈɑʧ ðə nˈɛkst flˈWəɹ blˈum.",
+    "tokens": [
+      {
+        "text": "Turn",
+        "phonemes": "tˈɜɹn"
+      },
+      {
+        "text": ",",
+        "phonemes": ","
+      },
+      {
+        "text": "connect",
+        "phonemes": "kənˈɛkt"
+      },
+      {
+        "text": ",",
+        "phonemes": ","
+      },
+      {
+        "text": "and",
+        "phonemes": "ænd"
+      },
+      {
+        "text": "watch",
+        "phonemes": "wˈɑʧ"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "next",
+        "phonemes": "nˈɛkst"
+      },
+      {
+        "text": "flower",
+        "phonemes": "flˈWəɹ"
+      },
+      {
+        "text": "bloom",
+        "phonemes": "blˈum"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "016f8c36809460cacddc481db19dc5a2fb3a3e0935dc6ffeb3a5c4469079124e",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Every illuminated target adds color to the scene.",
+      "spoken_text": "Every illuminated target adds color to the scene.",
+      "start": 3.43,
+      "end": 6.097,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "06-completion",
+    "caption_index": 1,
+    "global_start": 43.43,
+    "global_end": 46.08320833333333,
+    "visual_window": [
+      43.43,
+      46.097
+    ],
+    "raw_seconds": 3.5,
+    "trimmed_seconds": 2.906791666666667,
+    "trim_samples_24k": [
+      5579,
+      75342
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.1002239465051729,
+    "duration": 2.653208333333333,
+    "phonemes": "ˈɛvəɹi ɪlˈumənˌATᵻd tˈɑɹɡət ˈædz kˈʌləɹ tə ðə sˈin.",
+    "tokens": [
+      {
+        "text": "Every",
+        "phonemes": "ˈɛvəɹi"
+      },
+      {
+        "text": "illuminated",
+        "phonemes": "ɪlˈumənˌATᵻd"
+      },
+      {
+        "text": "target",
+        "phonemes": "tˈɑɹɡət"
+      },
+      {
+        "text": "adds",
+        "phonemes": "ˈædz"
+      },
+      {
+        "text": "color",
+        "phonemes": "kˈʌləɹ"
+      },
+      {
+        "text": "to",
+        "phonemes": "tə"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "scene",
+        "phonemes": "sˈin"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "b82aebc503e9292ba82b7fa5b676947ec3f77138e28c091e99b4a924fcb19782",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Reach the final target, and the complete garden comes to life.",
+      "spoken_text": "Reach the final target, and the complete garden comes to life.",
+      "start": 12.0,
+      "end": 15.432,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "06-completion",
+    "caption_index": 2,
+    "global_start": 52.0,
+    "global_end": 55.418083333333335,
+    "visual_window": [
+      52.0,
+      55.432
+    ],
+    "raw_seconds": 4.05,
+    "trimmed_seconds": 3.478666666666667,
+    "trim_samples_24k": [
+      5445,
+      88933
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0210351237647979,
+    "duration": 3.418083333333333,
+    "phonemes": "ɹˈiʧ ðə fˈInᵊl tˈɑɹɡət, ænd ðə kəmplˈit ɡˈɑɹdən kˈʌmz tə lˈIf.",
+    "tokens": [
+      {
+        "text": "Reach",
+        "phonemes": "ɹˈiʧ"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "final",
+        "phonemes": "fˈInᵊl"
+      },
+      {
+        "text": "target",
+        "phonemes": "tˈɑɹɡət"
+      },
+      {
+        "text": ",",
+        "phonemes": ","
+      },
+      {
+        "text": "and",
+        "phonemes": "ænd"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "complete",
+        "phonemes": "kəmplˈit"
+      },
+      {
+        "text": "garden",
+        "phonemes": "ɡˈɑɹdən"
+      },
+      {
+        "text": "comes",
+        "phonemes": "kˈʌmz"
+      },
+      {
+        "text": "to",
+        "phonemes": "tə"
+      },
+      {
+        "text": "life",
+        "phonemes": "lˈIf"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "d40fcceba4a2f18d78fb58426789e23cc46e50240b7c5157e65be1d9c83b58d9",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Built in Lens Studio, LightWeave connects mirror interaction, a changing beam, and responsive targets in one experience.",
+      "spoken_text": "Built in Lens Studio, Light Weave connects mirror interaction, a changing beam, and responsive targets in one experience.",
+      "start": 0.35,
+      "end": 7.61,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "07-achievement",
+    "caption_index": 0,
+    "global_start": 65.35,
+    "global_end": 72.59329166666666,
+    "visual_window": [
+      65.35,
+      72.61
+    ],
+    "raw_seconds": 8.025,
+    "trimmed_seconds": 7.40775,
+    "trim_samples_24k": [
+      6209,
+      183995
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0238769868693849,
+    "duration": 7.243291666666667,
+    "phonemes": "bˈɪlt ɪn lˈɛnz stˈudiO, lˈIt wˈiv kənˈɛkts mˈɪɹəɹ ˌɪntəɹˈækʃən, ɐ ʧˈAnʤɪŋ bˈim, ænd ɹəspˈɑnsɪv tˈɑɹɡəts ɪn wˈʌn ɪkspˈɪɹiəns.",
+    "tokens": [
+      {
+        "text": "Built",
+        "phonemes": "bˈɪlt"
+      },
+      {
+        "text": "in",
+        "phonemes": "ɪn"
+      },
+      {
+        "text": "Lens",
+        "phonemes": "lˈɛnz"
+      },
+      {
+        "text": "Studio",
+        "phonemes": "stˈudiO"
+      },
+      {
+        "text": ",",
+        "phonemes": ","
+      },
+      {
+        "text": "Light",
+        "phonemes": "lˈIt"
+      },
+      {
+        "text": "Weave",
+        "phonemes": "wˈiv"
+      },
+      {
+        "text": "connects",
+        "phonemes": "kənˈɛkts"
+      },
+      {
+        "text": "mirror",
+        "phonemes": "mˈɪɹəɹ"
+      },
+      {
+        "text": "interaction",
+        "phonemes": "ˌɪntəɹˈækʃən"
+      },
+      {
+        "text": ",",
+        "phonemes": ","
+      },
+      {
+        "text": "a",
+        "phonemes": "ɐ"
+      },
+      {
+        "text": "changing",
+        "phonemes": "ʧˈAnʤɪŋ"
+      },
+      {
+        "text": "beam",
+        "phonemes": "bˈim"
+      },
+      {
+        "text": ",",
+        "phonemes": ","
+      },
+      {
+        "text": "and",
+        "phonemes": "ænd"
+      },
+      {
+        "text": "responsive",
+        "phonemes": "ɹəspˈɑnsɪv"
+      },
+      {
+        "text": "targets",
+        "phonemes": "tˈɑɹɡəts"
+      },
+      {
+        "text": "in",
+        "phonemes": "ɪn"
+      },
+      {
+        "text": "one",
+        "phonemes": "wˈʌn"
+      },
+      {
+        "text": "experience",
+        "phonemes": "ɪkspˈɪɹiəns"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "70bacb967352a293e9c9e4766cdfc11d85be1665bd7db978f2ae0c8b01629f5a",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Golden light makes the route visible.",
+      "spoken_text": "Golden light makes the route visible.",
+      "start": 7.61,
+      "end": 9.449,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "07-achievement",
+    "caption_index": 1,
+    "global_start": 72.61,
+    "global_end": 74.43845833333333,
+    "visual_window": [
+      72.61,
+      74.449
+    ],
+    "raw_seconds": 2.575,
+    "trimmed_seconds": 1.997125,
+    "trim_samples_24k": [
+      5386,
+      53317
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.1009509371554578,
+    "duration": 1.8284583333333333,
+    "phonemes": "ɡˈOldən lˈIt mˌAks ðə ɹˈut vˈɪzəbᵊl.",
+    "tokens": [
+      {
+        "text": "Golden",
+        "phonemes": "ɡˈOldən"
+      },
+      {
+        "text": "light",
+        "phonemes": "lˈIt"
+      },
+      {
+        "text": "makes",
+        "phonemes": "mˌAks"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "route",
+        "phonemes": "ɹˈut"
+      },
+      {
+        "text": "visible",
+        "phonemes": "vˈɪzəbᵊl"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "96ee72cb5b7285988e54365ba41abac4c973d92737bb59153b0f39f427c40a91",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Color and motion celebrate your progress.",
+      "spoken_text": "Color and motion celebrate your progress.",
+      "start": 9.449,
+      "end": 11.794,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "07-achievement",
+    "caption_index": 2,
+    "global_start": 74.449,
+    "global_end": 76.78679166666666,
+    "visual_window": [
+      74.449,
+      76.794
+    ],
+    "raw_seconds": 3.0,
+    "trimmed_seconds": 2.4215,
+    "trim_samples_24k": [
+      5274,
+      63390
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0437499999999997,
+    "duration": 2.3377916666666665,
+    "phonemes": "kˈʌləɹ ænd mˈOʃən sˈɛləbɹˌAt jʊɹ pɹˈɑɡɹəs.",
+    "tokens": [
+      {
+        "text": "Color",
+        "phonemes": "kˈʌləɹ"
+      },
+      {
+        "text": "and",
+        "phonemes": "ænd"
+      },
+      {
+        "text": "motion",
+        "phonemes": "mˈOʃən"
+      },
+      {
+        "text": "celebrate",
+        "phonemes": "sˈɛləbɹˌAt"
+      },
+      {
+        "text": "your",
+        "phonemes": "jʊɹ"
+      },
+      {
+        "text": "progress",
+        "phonemes": "pɹˈɑɡɹəs"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "2cd8bc0121a5d84d94135a4067a253ee715a813cac488287197b74def28368c1",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Reset the scene and start a fresh journey.",
+      "spoken_text": "Reset the scene and start a fresh journey.",
+      "start": 0.35,
+      "end": 2.459,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "08-reset",
+    "caption_index": 0,
+    "global_start": 85.35,
+    "global_end": 87.43854166666667,
+    "visual_window": [
+      85.35,
+      87.459
+    ],
+    "raw_seconds": 2.875,
+    "trimmed_seconds": 2.2922083333333334,
+    "trim_samples_24k": [
+      5288,
+      60301
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0999080294305823,
+    "duration": 2.0885416666666665,
+    "phonemes": "ɹisˈɛt ðə sˈin ænd stˈɑɹt ɐ fɹˈɛʃ ʤˈɜɹni.",
+    "tokens": [
+      {
+        "text": "Reset",
+        "phonemes": "ɹisˈɛt"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "scene",
+        "phonemes": "sˈin"
+      },
+      {
+        "text": "and",
+        "phonemes": "ænd"
+      },
+      {
+        "text": "start",
+        "phonemes": "stˈɑɹt"
+      },
+      {
+        "text": "a",
+        "phonemes": "ɐ"
+      },
+      {
+        "text": "fresh",
+        "phonemes": "fɹˈɛʃ"
+      },
+      {
+        "text": "journey",
+        "phonemes": "ʤˈɜɹni"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "61a1f537c75c95c00ddb02714a0027f41a27ddcb31c2b2161d82a8ec912f499b",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "The garden is ready for your next connection, and the light is yours to shape.",
+      "spoken_text": "The garden is ready for your next connection, and the light is yours to shape.",
+      "start": 2.459,
+      "end": 6.314,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "08-reset",
+    "caption_index": 1,
+    "global_start": 87.459,
+    "global_end": 91.30258333333333,
+    "visual_window": [
+      87.459,
+      91.314
+    ],
+    "raw_seconds": 4.675,
+    "trimmed_seconds": 4.110458333333334,
+    "trim_samples_24k": [
+      5572,
+      104223
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0732267188859879,
+    "duration": 3.843583333333333,
+    "phonemes": "ðə ɡˈɑɹdən ɪz ɹˈɛdi fɔɹ jʊɹ nˈɛkst kənˈɛkʃən, ænd ðə lˈIt ɪz jˈɔɹz tə ʃˈAp.",
+    "tokens": [
+      {
+        "text": "The",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "garden",
+        "phonemes": "ɡˈɑɹdən"
+      },
+      {
+        "text": "is",
+        "phonemes": "ɪz"
+      },
+      {
+        "text": "ready",
+        "phonemes": "ɹˈɛdi"
+      },
+      {
+        "text": "for",
+        "phonemes": "fɔɹ"
+      },
+      {
+        "text": "your",
+        "phonemes": "jʊɹ"
+      },
+      {
+        "text": "next",
+        "phonemes": "nˈɛkst"
+      },
+      {
+        "text": "connection",
+        "phonemes": "kənˈɛkʃən"
+      },
+      {
+        "text": ",",
+        "phonemes": ","
+      },
+      {
+        "text": "and",
+        "phonemes": "ænd"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "light",
+        "phonemes": "lˈIt"
+      },
+      {
+        "text": "is",
+        "phonemes": "ɪz"
+      },
+      {
+        "text": "yours",
+        "phonemes": "jˈɔɹz"
+      },
+      {
+        "text": "to",
+        "phonemes": "tə"
+      },
+      {
+        "text": "shape",
+        "phonemes": "ʃˈAp"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "e6c2f8688e063d14f59b283ddfcd6afbab403d0556e0f2ef95337e8680aaf8b7",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Pinch and drag to turn the mirror.",
+      "spoken_text": "Pinch and drag to turn the mirror.",
+      "start": 0.35,
+      "end": 1.961,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "03-interaction",
+    "caption_index": 0,
+    "global_start": 99.35,
+    "global_end": 100.94779166666666,
+    "visual_window": [
+      99.35,
+      100.961
+    ],
+    "raw_seconds": 2.375,
+    "trimmed_seconds": 1.7794166666666666,
+    "trim_samples_24k": [
+      4995,
+      47701
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.1219525010508615,
+    "duration": 1.5977916666666667,
+    "phonemes": "pˈɪnʧ ænd dɹˈæɡ tə tˈɜɹn ðə mˈɪɹəɹ.",
+    "tokens": [
+      {
+        "text": "Pinch",
+        "phonemes": "pˈɪnʧ"
+      },
+      {
+        "text": "and",
+        "phonemes": "ænd"
+      },
+      {
+        "text": "drag",
+        "phonemes": "dɹˈæɡ"
+      },
+      {
+        "text": "to",
+        "phonemes": "tə"
+      },
+      {
+        "text": "turn",
+        "phonemes": "tˈɜɹn"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "mirror",
+        "phonemes": "mˈɪɹəɹ"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "7be45d1a6d3a05b7895e9c15a88b83f0fae8696e5612ed43b7a3dd9c47a05ad8",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "As it rotates, the reflected beam changes direction.",
+      "spoken_text": "As it rotates, the reflected beam changes direction.",
+      "start": 1.961,
+      "end": 5.232,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "03-interaction",
+    "caption_index": 1,
+    "global_start": 100.961,
+    "global_end": 104.11066666666666,
+    "visual_window": [
+      100.961,
+      104.232
+    ],
+    "raw_seconds": 3.75,
+    "trimmed_seconds": 3.1545,
+    "trim_samples_24k": [
+      5582,
+      81290
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.0,
+    "duration": 3.1496666666666666,
+    "phonemes": "ˌæz ɪt ɹˈOtˌAts, ðə ɹəflˈɛktᵻd bˈim ʧˈAnʤᵻz dəɹˈɛkʃən.",
+    "tokens": [
+      {
+        "text": "As",
+        "phonemes": "ˌæz"
+      },
+      {
+        "text": "it",
+        "phonemes": "ɪt"
+      },
+      {
+        "text": "rotates",
+        "phonemes": "ɹˈOtˌAts"
+      },
+      {
+        "text": ",",
+        "phonemes": ","
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "reflected",
+        "phonemes": "ɹəflˈɛktᵻd"
+      },
+      {
+        "text": "beam",
+        "phonemes": "bˈim"
+      },
+      {
+        "text": "changes",
+        "phonemes": "ʧˈAnʤᵻz"
+      },
+      {
+        "text": "direction",
+        "phonemes": "dəɹˈɛkʃən"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "2cbaf1fa60e5ef1c41226f52958c3b0632f16b98197f830fdf7b70a1d7595674",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Follow that golden line and shape the path with each movement.",
+      "spoken_text": "Follow that golden line and shape the path with each movement.",
+      "start": 5.232,
+      "end": 8.333,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "03-interaction",
+    "caption_index": 2,
+    "global_start": 104.232,
+    "global_end": 107.32504166666666,
+    "visual_window": [
+      104.232,
+      107.333
+    ],
+    "raw_seconds": 3.95,
+    "trimmed_seconds": 3.4037083333333333,
+    "trim_samples_24k": [
+      4845,
+      86534
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.1065371694841786,
+    "duration": 3.0930416666666667,
+    "phonemes": "fˈɑlO ðæt ɡˈOldən lˈIn ænd ʃˈAp ðə pˈæθ wɪð ˈiʧ mˈuvmᵊnt.",
+    "tokens": [
+      {
+        "text": "Follow",
+        "phonemes": "fˈɑlO"
+      },
+      {
+        "text": "that",
+        "phonemes": "ðæt"
+      },
+      {
+        "text": "golden",
+        "phonemes": "ɡˈOldən"
+      },
+      {
+        "text": "line",
+        "phonemes": "lˈIn"
+      },
+      {
+        "text": "and",
+        "phonemes": "ænd"
+      },
+      {
+        "text": "shape",
+        "phonemes": "ʃˈAp"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "path",
+        "phonemes": "pˈæθ"
+      },
+      {
+        "text": "with",
+        "phonemes": "wɪð"
+      },
+      {
+        "text": "each",
+        "phonemes": "ˈiʧ"
+      },
+      {
+        "text": "movement",
+        "phonemes": "mˈuvmᵊnt"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "e89e99e38006205d64ef217de89c76a9d4bd2c88cdbf7f76db67facedeb08fb6",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "LightWeave.",
+      "spoken_text": "Light Weave.",
+      "start": 2.7,
+      "end": 3.389,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "09-close",
+    "caption_index": 0,
+    "global_start": 121.7,
+    "global_end": 122.371375,
+    "visual_window": [
+      121.7,
+      122.389
+    ],
+    "raw_seconds": 1.575,
+    "trimmed_seconds": 0.8935416666666667,
+    "trim_samples_24k": [
+      7245,
+      28690
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.3456952811244989,
+    "duration": 0.671375,
+    "phonemes": "lˈIt wˈiv.",
+    "tokens": [
+      {
+        "text": "Light",
+        "phonemes": "lˈIt"
+      },
+      {
+        "text": "Weave",
+        "phonemes": "wˈiv"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "e07f650526362849250b192637e8c1f06a019100ceb30e727a7f8fe6aeb8d634",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Shape the light.",
+      "spoken_text": "Shape the light.",
+      "start": 3.389,
+      "end": 4.212,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "09-close",
+    "caption_index": 1,
+    "global_start": 122.389,
+    "global_end": 123.19608333333333,
+    "visual_window": [
+      122.389,
+      123.212
+    ],
+    "raw_seconds": 1.625,
+    "trimmed_seconds": 1.0332916666666667,
+    "trim_samples_24k": [
+      6620,
+      31419
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.2948517126148706,
+    "duration": 0.8070833333333334,
+    "phonemes": "ʃˈAp ðə lˈIt.",
+    "tokens": [
+      {
+        "text": "Shape",
+        "phonemes": "ʃˈAp"
+      },
+      {
+        "text": "the",
+        "phonemes": "ðə"
+      },
+      {
+        "text": "light",
+        "phonemes": "lˈIt"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "2c30f5409fb7756579a08dd288d863367831a43824c5d855312229fcfad0e14b",
+    "fit": "pass"
+  },
+  {
+    "key": {
+      "text": "Watch your world bloom.",
+      "spoken_text": "Watch your world bloom.",
+      "start": 4.212,
+      "end": 5.41,
+      "voice": "af_heart",
+      "model": "Kokoro-82M v1.0",
+      "speed": 1.0
+    },
+    "beat": "09-close",
+    "caption_index": 2,
+    "global_start": 123.212,
+    "global_end": 124.39812500000001,
+    "visual_window": [
+      123.212,
+      124.41
+    ],
+    "raw_seconds": 1.9,
+    "trimmed_seconds": 1.357375,
+    "trim_samples_24k": [
+      5357,
+      37934
+    ],
+    "retained_silence_margin_ms": 80,
+    "tempo": 1.1571824381926679,
+    "duration": 1.186125,
+    "phonemes": "wˈɑʧ jʊɹ wˈɜɹld blˈum.",
+    "tokens": [
+      {
+        "text": "Watch",
+        "phonemes": "wˈɑʧ"
+      },
+      {
+        "text": "your",
+        "phonemes": "jʊɹ"
+      },
+      {
+        "text": "world",
+        "phonemes": "wˈɜɹld"
+      },
+      {
+        "text": "bloom",
+        "phonemes": "blˈum"
+      },
+      {
+        "text": ".",
+        "phonemes": "."
+      }
+    ],
+    "sha256": "cfbb83e5a42e59f7b29b948db82558e488eddb967261cc4436bb1a69683c473a",
+    "fit": "pass"
+  }
+]

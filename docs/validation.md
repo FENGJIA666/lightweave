@@ -51,46 +51,25 @@ Source SHA-256:
 236c3568a201c83c259ac7ae861477bd880e4c584be5d075c62f4f383c55aaa5  LightWeave-native-continuous-drag.mp4
 ```
 
-## Audio and presentation review
+## Public narration and presentation
 
-The complete native master decodes successfully. Its audio/video both begin at timestamp zero and their durations differ by less than 1 ms. The decoded original audio peak is **−12.61 dBFS**, with no NaN or infinite samples. The original audio is preserved in the edited demonstration; narration is separately recorded standard macOS synthetic speech.
+The current [public demonstration](https://youtu.be/N6D_f7aWozo) uses the same 125-second picture sequence and captions as the reviewed v2 edit. H.264 packet hashes match the previous captioned and clean versions exactly. The full three-flower view, pointer labels, real bloom transitions, Replay and second run therefore retain their reviewed images.
 
-The 95-second `LightWeave-runtime-sound-review.mp4` contains untouched-level selections of the original sound and picture: master seconds **0–32, 94–112, 151–179, and 205–222**. This covers at least two 16-second ambient loops, the three bloom cues, completion and Replay. User listening feedback is pending; technical signal checks are not a listening result.
+All **21 narration cues** were generated locally using **Kokoro-82M v1.0**, official **af_heart**, and Kokoro **0.9.4**. Their text and caption windows are unchanged. Each generated cue fits its window; the maximum measured tempo adjustment is **1.3457×**. Word tokens have phoneme records, and the retained raw speech tails are below −65 dBFS over their last 75 ms. The new closing line ends at **124.398125 s**, within the final 124.41-second caption boundary. [Voice timing](../media/video/v2-public/voice-sync.json) records every cue. These objective checks do not substitute for subjective listening.
 
-The preferred demonstration is **v2**, a **125-second** seven-beat edit documented in `media/video/v2/edit.json` and [the v2 English script](presentation/video-script-v2-en.md). The first 20 seconds name the visible flower buds, golden light source and rectangular mirror, then show the first genuine bloom. The goal is explicit: **make all three flowers bloom**. Editorial labels identify existing objects; they are video annotations, not product UI. Titles and captions stay in the right column; the full Preview frame stays visible.
+The mixer takes audio solely from the native Preview recording and the newly generated Kokoro PCM tracks. The previous v2 files supply **video only**. [The replacement report](../media/video/v2-public/evidence/public-replacement-report.json) records all native and narration inputs with hashes. Both public versions have identical AAC packet hashes.
 
-Both v2 captioned and clean exports are **125.021333 s**, H.264 1920×1080 at 30 fps (3,750 frames), with 48 kHz stereo AAC. Both decode successfully and measure **−16.3 LUFS integrated** and **−4.3 dBFS true peak**. Two narration-free checks in the newly edited opening and second run retain native audio with correlation **0.9999503** and **0.9999566**, at gain **0.8490** and **0.8483**. The measured common audio shift is 21.333 ms, compared with the 21.029 ms video start: a 0.304 ms relative difference. These are signal checks; subjective listening remains pending.
+The captioned and clean exports are each **125.021029 s**, **3,750 frames**, H.264 1920×1080 at 30 fps, with 48 kHz stereo AAC. Both decode successfully. The new mix measures **−17.6 LUFS integrated** and **−4.2 dBFS true peak**. Two narration-free native-audio windows have correlation **0.999935** and **0.999950**, with gain **0.84819** and **0.84845**. Native audio alignment differs from the video start by approximately **0.00817 ms**. [Audio checks](../media/video/v2-public/evidence/public-audio-checks.json) record the measured windows and timing.
 
-The 20-second `opening-review-v2.mp4` shows one continuous master range, 88–108 seconds. The first coral hit appears at edit 12.6–12.8 seconds; “Watch the petals open” begins at 13.4 seconds, as the real petals finish opening and the counter reads 1/3. The mirror leader endpoint was inspected across four actual rotating poses within its 7.4–13.4-second display window. Gold source and gold flower are separately identifiable by the source label and flower-bud labels.
+| Public film | SHA-256 |
+| --- | --- |
+| Captioned | `633c103f363e1be67122db242d3f02434ca4195678386cd214e6606da8835cda` |
+| Clean | `8276d9e92c057be047bc3e2ba0f75a854a18e554fcebf72192d91bd497dee3ff` |
 
-Twelve encoded representative frames were inspected, including all object labels, first hit, first completion, Replay, second-run progress and the final complete garden. Independent review verified both final hashes and full decoding, checked the full state sequence and sampled additional encoded frames around Replay and final completion. The full frame retains all three flowers and every control. The timeline preserves **0→1→2→3→Replay→0→1→2→3**. The second gold bloom finishes around 122.4 seconds, followed by the closing phrase over the complete 3/3 garden. User comprehension feedback on the new opening is pending. The earlier user response said the overall picture and colored objects were unclear; it is not recorded as audio approval.
+The original optical source, all 77 runnable files, 40 numerical test results and five desktop Preview LEAF results are unchanged. This presentation revision adds no hardware validation claim. User comprehension feedback and subjective listening approval remain pending.
 
-| v2 edit seconds | Beat | Original master seconds |
-| --- | --- | --- |
-| 0–20 | Goal, object roles, first real bloom | 88–108 |
-| 20–40 | Explore a new angle; first bloom retained | 122–142 |
-| 40–65 | Second and third blooms | 154–179 |
-| 65–85 | Complete garden and spatial view | 180–200 |
-| 85–99 | Replay and fresh initial state | 206–220 |
-| 99–119 | Second run, first and second blooms | 220–240 |
-| 119–125 | Second-run gold bloom and closing phrase | 240–246 |
+## License and reproduction
 
-All 125 timeline seconds use genuine Preview footage and its original audio. Only the four new opening sentences were synthesized for v2. Four unchanged middle beats are reused byte-for-byte from v1. The existing closing speech is delayed 2.35 seconds without changing its words or PCM samples. Source fingerprints, required audio, valid source ranges and the under-three-minute gate pass.
+[The narration notice](../media/video/v2-public/license/README.md) preserves the official Apache-2.0 source declarations, upstream snapshots, model and voice fingerprints, and dependency versions. [The public script](presentation/video-script-v2-public-en.md), [edit record](../media/video/v2-public/edit.json) and [reproduction guide](../media/video/v2-public/REPRODUCE.md) identify the revised delivery.
 
-```
-974ede5e9d5478fb735d9b7726c8edaf276525d6a9418dc064977c2bcd557962  LightWeave-demo-v2-captioned.mp4
-3a22a5271e95a234f972605cab470cd689c4dae066cf42351d5fe6c565b30435  LightWeave-demo-v2-clean.mp4
-6433ac57890b6ef67d88c8a385b6196d60057a18a05880e1933ebf883fc8ce73  opening-review-v2.mp4
-a1d660d0cbf16de12b79d80fc37887edf9a541f851409f1834da2658830d11fe  media/video/v2/edit.json
-```
-
-## Version and reproduction scope
-
-The original 150-second v1 outputs, edit manifest and technical reports remain unchanged. [The preserved v1 validation report](validation-v1.md) records their hashes and source selections. `media/video/v2/v1-fingerprints.json` verifies those five artifacts retain their prior bytes; `edit-v1-preserved.json` is an exact copy of the old edit manifest.
-
-The source project package and the edited videos are separate deliverables. Raw capture, voice, graphics and rendered beat files are **external production inputs** referenced by the edit manifest. A project ZIP containing the versioned script, edit metadata and media manifest alone does not include every input required to re-render the demonstration. Full local production inputs and `scripts/video/v2.py` are required for that workflow. No product code, scene or Lens state was changed for this video revision.
-
-
-## Delivery packaging
-
-The playable project is unchanged from the verified v1 archive. [MEDIA_MANIFEST.json](../MEDIA_MANIFEST.json) identifies the separate v2 films and preserved v1 film fingerprints. The [v2 edit record](../media/video/v2/edit.json) is included as an editorial record. Its raw footage and narration assets are separate production inputs listed in [PRODUCTION_INPUTS.json](../media/video/v2/PRODUCTION_INPUTS.json); they are not embedded in this project ZIP.
+The original [v1 validation](validation-v1.md) and [v2 local-review validation](validation-v2-local-review.md) retain their prior measurements and movie hashes. They do not identify the current public soundtrack. The Lens repository is directly openable; movie reproduction additionally requires the declared external native capture, previous picture-only inputs and official model artifacts.
