@@ -1,0 +1,462 @@
+{
+  "project": "LightWeave",
+  "version": 2,
+  "output_stem": "LightWeave-demo-v2",
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30
+  },
+  "stage": "Explicit goal and object roles, early genuine first bloom",
+  "beats": [
+    {
+      "id": "01-explainer",
+      "duration": 20,
+      "title": "BLOOM ALL 3 FLOWERS",
+      "source": {
+        "path": "media/video/raw/LightWeave-native-two-runs.mp4",
+        "start": 88,
+        "crop": null,
+        "origin": "lens-studio-preview",
+        "sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+        "reviewed": true,
+        "review_note": "Continuous original master 88–108 seconds. Buds identified, true mirror drag, coral hits at 12.6–12.8 seconds of this edit and petals unfold.",
+        "raw_seconds": 260.696984,
+        "raw_size": [
+          1800,
+          1684
+        ],
+        "raw_audio": {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 1,
+          "start_time": "0.000000"
+        }
+      },
+      "capture_direction": "Explain the visible objects and task, then preserve the actual first bloom in the same source shot.",
+      "narration": "Your goal is to make all three flowers bloom. Light starts at this golden orb. Turn the mirror to aim the beam at a flower’s center. Watch the petals open—one flower complete, two to go.",
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 2.688,
+          "text": "Your goal is to make all three flowers bloom."
+        },
+        {
+          "start": 4.3,
+          "end": 6.092,
+          "text": "Light starts at this golden orb."
+        },
+        {
+          "start": 7.4,
+          "end": 9.896,
+          "text": "Turn the mirror to aim the beam at a flower’s center."
+        },
+        {
+          "start": 13.4,
+          "end": 17.14,
+          "text": "Watch the petals open—one flower complete, two to go."
+        }
+      ],
+      "audio": "media/video/v2/voice/01-explainer.wav",
+      "voice_evidence": {
+        "engine": "macOS say",
+        "voice": "Samantha",
+        "rate": 156,
+        "human_impersonation": false,
+        "segments": [
+          {
+            "line": "Your goal is to make all three flowers bloom.",
+            "start": 0.35,
+            "end": 2.687732,
+            "duration": 2.337732,
+            "visual_window": [
+              0.35,
+              4.1
+            ],
+            "fit": "pass",
+            "engine": "macOS say",
+            "voice": "Samantha"
+          },
+          {
+            "line": "Light starts at this golden orb.",
+            "start": 4.3,
+            "end": 6.09229,
+            "duration": 1.79229,
+            "visual_window": [
+              4.3,
+              7.2
+            ],
+            "fit": "pass",
+            "engine": "macOS say",
+            "voice": "Samantha"
+          },
+          {
+            "line": "Turn the mirror to aim the beam at a flower’s center.",
+            "start": 7.4,
+            "end": 9.896145,
+            "duration": 2.496145,
+            "visual_window": [
+              7.4,
+              13.0
+            ],
+            "fit": "pass",
+            "engine": "macOS say",
+            "voice": "Samantha"
+          },
+          {
+            "line": "Watch the petals open—one flower complete, two to go.",
+            "start": 13.4,
+            "end": 17.140499,
+            "duration": 3.740499,
+            "visual_window": [
+              13.4,
+              19.8
+            ],
+            "fit": "pass",
+            "engine": "macOS say",
+            "voice": "Samantha"
+          }
+        ]
+      },
+      "annotations": [
+        {
+          "path": "media/video/v2/graphics/identify-buds.png",
+          "start": 0,
+          "end": 4.1
+        },
+        {
+          "path": "media/video/v2/graphics/identify-source.png",
+          "start": 4.1,
+          "end": 7.4
+        },
+        {
+          "path": "media/video/v2/graphics/identify-mirror.png",
+          "start": 7.4,
+          "end": 13.4
+        },
+        {
+          "path": "media/video/v2/graphics/identify-center.png",
+          "start": 13.4,
+          "end": 20
+        }
+      ]
+    },
+    {
+      "id": "05-angle",
+      "duration": 20,
+      "title": "Explore a new angle.",
+      "source": {
+        "path": "media/video/raw/LightWeave-native-two-runs.mp4",
+        "start": 122,
+        "crop": null,
+        "origin": "lens-studio-preview",
+        "sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+        "reviewed": true,
+        "review_note": "Directly reviewed genuine Lens Studio Preview footage. Actual -25cm Preview view after coral; earned flower remains open.",
+        "raw_seconds": 260.696984,
+        "raw_size": [
+          1800,
+          1684
+        ],
+        "raw_audio": {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 1,
+          "start_time": "0.000000"
+        }
+      },
+      "capture_direction": "Change viewpoint, reveal the elevated part of the route, then adjust the same mirror again. Keep the path continuously understandable.",
+      "narration": "Now explore the next connection. Look from the mirror toward the elevated target. The path travels through three dimensions, making the space itself part of the puzzle.",
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 2.168,
+          "text": "Now explore the next connection."
+        },
+        {
+          "start": 2.168,
+          "end": 4.506,
+          "text": "Look from the mirror toward the elevated target."
+        },
+        {
+          "start": 4.506,
+          "end": 9.092,
+          "text": "The path travels through three dimensions, making the space itself part of the puzzle."
+        }
+      ],
+      "audio": "media/video/voice/05-angle.wav",
+      "voice_evidence": {
+        "engine": "macOS say",
+        "voice": "Samantha",
+        "rate": 156,
+        "speech_seconds": 8.742132000000002,
+        "human_impersonation": false
+      }
+    },
+    {
+      "id": "06-completion",
+      "duration": 25,
+      "title": "Connect. Bloom. Complete.",
+      "source": {
+        "path": "media/video/raw/LightWeave-native-two-runs.mp4",
+        "start": 154,
+        "crop": null,
+        "origin": "lens-studio-preview",
+        "sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+        "reviewed": true,
+        "review_note": "Directly reviewed genuine Lens Studio Preview footage. Teal transition (156.6,156.8]s then gold (168.4,168.6]s in continuous source; both actual bloom transitions included.",
+        "raw_seconds": 260.696984,
+        "raw_size": [
+          1800,
+          1684
+        ],
+        "raw_audio": {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 1,
+          "start_time": "0.000000"
+        }
+      },
+      "capture_direction": "Complete the second and third actual target activations. Preserve enough continuous footage to follow each action and result.",
+      "narration": "Turn, connect, and watch the next flower bloom. Every illuminated target adds color to the scene. Reach the final target, and the complete garden comes to life.",
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 3.43,
+          "text": "Turn, connect, and watch the next flower bloom."
+        },
+        {
+          "start": 3.43,
+          "end": 6.097,
+          "text": "Every illuminated target adds color to the scene."
+        },
+        {
+          "start": 12.0,
+          "end": 15.432,
+          "text": "Reach the final target, and the complete garden comes to life."
+        }
+      ],
+      "audio": "media/video/voice/06-completion.wav",
+      "voice_evidence": {
+        "engine": "macOS say",
+        "voice": "Samantha",
+        "rate": 156,
+        "speech_seconds": 9.178776,
+        "human_impersonation": false,
+        "editorial_retime": {
+          "sentence": 3,
+          "old_start": 6.097,
+          "new_start": 12,
+          "duration": 3.432,
+          "method": "Move existing normalized PCM samples exactly; no speech regeneration; sentence text unchanged."
+        }
+      }
+    },
+    {
+      "id": "07-achievement",
+      "duration": 20,
+      "title": "A complete light path. A garden in bloom.",
+      "source": {
+        "path": "media/video/raw/LightWeave-native-two-runs.mp4",
+        "start": 180,
+        "crop": null,
+        "origin": "lens-studio-preview",
+        "sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+        "reviewed": true,
+        "review_note": "Directly reviewed genuine Lens Studio Preview footage. Completed three-flower garden; actual +25cm side viewpoint and elevated outgoing beam.",
+        "raw_seconds": 260.696984,
+        "raw_size": [
+          1800,
+          1684
+        ],
+        "raw_audio": {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 1,
+          "start_time": "0.000000"
+        }
+      },
+      "capture_direction": "Hold the three completed targets together, then show a clear side view of the solved route. A brief Lens Studio editor inset may accompany the Preview if it improves clarity.",
+      "narration": "Built in Lens Studio, LightWeave connects mirror interaction, a changing beam, and responsive targets in one experience. Golden light makes the route visible. Color and motion celebrate your progress.",
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 7.61,
+          "text": "Built in Lens Studio, LightWeave connects mirror interaction, a changing beam, and responsive targets in one experience."
+        },
+        {
+          "start": 7.61,
+          "end": 9.449,
+          "text": "Golden light makes the route visible."
+        },
+        {
+          "start": 9.449,
+          "end": 11.794,
+          "text": "Color and motion celebrate your progress."
+        }
+      ],
+      "audio": "media/video/voice/07-achievement.wav",
+      "voice_evidence": {
+        "engine": "macOS say",
+        "voice": "Samantha",
+        "rate": 156,
+        "speech_seconds": 11.443901,
+        "human_impersonation": false
+      }
+    },
+    {
+      "id": "08-reset",
+      "duration": 14,
+      "title": "Reset. Explore again.",
+      "source": {
+        "path": "media/video/raw/LightWeave-native-two-runs.mp4",
+        "start": 206,
+        "crop": null,
+        "origin": "lens-studio-preview",
+        "sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+        "reviewed": true,
+        "review_note": "Directly reviewed genuine Lens Studio Preview footage. Actual Replay transition (207.0,207.2]s returns 0/3; second mirror interaction starts in this range.",
+        "raw_seconds": 260.696984,
+        "raw_size": [
+          1800,
+          1684
+        ],
+        "raw_audio": {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 1,
+          "start_time": "0.000000"
+        }
+      },
+      "capture_direction": "Activate reset in the actual Preview. Show the initial target states return, then begin another mirror interaction.",
+      "narration": "Reset the scene and start a fresh journey. The garden is ready for your next connection, and the light is yours to shape.",
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 2.459,
+          "text": "Reset the scene and start a fresh journey."
+        },
+        {
+          "start": 2.459,
+          "end": 6.314,
+          "text": "The garden is ready for your next connection, and the light is yours to shape."
+        }
+      ],
+      "audio": "media/video/voice/08-reset.wav",
+      "voice_evidence": {
+        "engine": "macOS say",
+        "voice": "Samantha",
+        "rate": 156,
+        "speech_seconds": 5.963673,
+        "human_impersonation": false
+      }
+    },
+    {
+      "id": "03-interaction",
+      "duration": 20,
+      "title": "Turn the mirror. Shape the path.",
+      "source": {
+        "path": "media/video/raw/LightWeave-native-two-runs.mp4",
+        "start": 220,
+        "crop": null,
+        "origin": "lens-studio-preview",
+        "sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+        "reviewed": true,
+        "review_note": "Actual continuous second run following Replay; source transitions independently frame-reviewed. 03 includes coral and teal; 09 includes gold.",
+        "raw_seconds": 260.696984,
+        "raw_size": [
+          1800,
+          1684
+        ],
+        "raw_audio": {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 1,
+          "start_time": "0.000000"
+        }
+      },
+      "capture_direction": "Show single-hand pinch/drag on the mirror and uninterrupted beam movement. Keep the mirror, input, and beam legible.",
+      "narration": "Pinch and drag to turn the mirror. As it rotates, the reflected beam changes direction. Follow that golden line and shape the path with each movement.",
+      "captions": [
+        {
+          "start": 0.35,
+          "end": 1.961,
+          "text": "Pinch and drag to turn the mirror."
+        },
+        {
+          "start": 1.961,
+          "end": 5.232,
+          "text": "As it rotates, the reflected beam changes direction."
+        },
+        {
+          "start": 5.232,
+          "end": 8.333,
+          "text": "Follow that golden line and shape the path with each movement."
+        }
+      ],
+      "audio": "media/video/voice/03-interaction.wav",
+      "voice_evidence": {
+        "engine": "macOS say",
+        "voice": "Samantha",
+        "rate": 156,
+        "speech_seconds": 7.982903,
+        "human_impersonation": false
+      }
+    },
+    {
+      "id": "09-close",
+      "duration": 6,
+      "title": "LIGHTWEAVE",
+      "source": {
+        "path": "media/video/raw/LightWeave-native-two-runs.mp4",
+        "start": 240,
+        "crop": null,
+        "origin": "lens-studio-preview",
+        "sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d",
+        "reviewed": true,
+        "review_note": "Actual continuous second run following Replay; source transitions independently frame-reviewed. 03 includes coral and teal; 09 includes gold. Closing source240–246; gold hit242.4–242.6, fullyopen~243.4. Speech starts242.7; Shape the light begins243.389.",
+        "raw_seconds": 260.696984,
+        "raw_size": [
+          1800,
+          1684
+        ],
+        "raw_audio": {
+          "codec_name": "aac",
+          "sample_rate": "44100",
+          "channels": 1,
+          "start_time": "0.000000"
+        }
+      },
+      "capture_direction": "End on a concise title card over an actual Preview beauty shot. Use a saved shot of the completed garden if needed.",
+      "narration": "LightWeave. Shape the light. Watch your world bloom.",
+      "captions": [
+        {
+          "start": 2.7,
+          "end": 3.389,
+          "text": "LightWeave."
+        },
+        {
+          "start": 3.389,
+          "end": 4.212,
+          "text": "Shape the light."
+        },
+        {
+          "start": 4.212,
+          "end": 5.41,
+          "text": "Watch your world bloom."
+        }
+      ],
+      "audio": "media/video/v2/voice/09-close-delayed.wav",
+      "voice_evidence": {
+        "engine": "macOS say",
+        "voice": "Samantha",
+        "rate": 156,
+        "speech_seconds": 2.709841,
+        "human_impersonation": false,
+        "reuse_note": "Original v1 PCM delayed 2.35s, no regenerated speech; title word after real 3/3, shape/watch phrases after full gold bloom."
+      }
+    }
+  ],
+  "narrative_source": "docs/presentation/video-script-v2-en.md",
+  "original_source_unchanged": true
+}

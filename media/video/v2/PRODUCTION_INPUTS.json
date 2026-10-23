@@ -1,0 +1,90 @@
+{
+  "scope": "Editorial record; complete movie rendering requires these separate production files. The Lens project itself is self-contained.",
+  "files": [
+    {
+      "path": "media/video/edit.json",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "sha256": "25685e561c98e949d11e926c706dc380f9fffc7c0c3ab35e431adf3d37a0496a"
+    },
+    {
+      "path": "media/video/output/LightWeave-demo-captioned.mp4",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "sha256": "3a60918c99ca960adad121cfcd5934001c61482e4a11dafc7a2974ff94d13ca9"
+    },
+    {
+      "path": "media/video/output/LightWeave-demo-clean.mp4",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "sha256": "c06c5099db31573966947328d1f64d34f400a497169a0d13e54f5470767675df"
+    },
+    {
+      "path": "media/video/output/captioned-technical-report.json",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "sha256": "deb7d2c2613e2760037b0983c9843e00c93202ebe1df1b1852e9a9c75b63a76f"
+    },
+    {
+      "path": "media/video/output/clean-technical-report.json",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "sha256": "8379a50ffb2836868d18bc3e3f400275a6b06cfb43cf0b3025dc82c9b80c7ac6"
+    },
+    {
+      "path": "media/video/raw/LightWeave-native-two-runs.mp4",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "sha256": "17affca0b1bc2c1f732c3d3782a0a45f4ef874477b1a28a417bc4a01a27d2d0d"
+    },
+    {
+      "path": "media/video/v2/graphics/identify-buds.png",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "fingerprint": "not recorded in the editorial manifest"
+    },
+    {
+      "path": "media/video/v2/graphics/identify-center.png",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "fingerprint": "not recorded in the editorial manifest"
+    },
+    {
+      "path": "media/video/v2/graphics/identify-mirror.png",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "fingerprint": "not recorded in the editorial manifest"
+    },
+    {
+      "path": "media/video/v2/graphics/identify-source.png",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "fingerprint": "not recorded in the editorial manifest"
+    },
+    {
+      "path": "media/video/v2/voice/01-explainer.wav",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "fingerprint": "not recorded in the editorial manifest"
+    },
+    {
+      "path": "media/video/v2/voice/09-close-delayed.wav",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "fingerprint": "not recorded in the editorial manifest"
+    },
+    {
+      "path": "media/video/voice/03-interaction.wav",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "fingerprint": "not recorded in the editorial manifest"
+    },
+    {
+      "path": "media/video/voice/05-angle.wav",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "fingerprint": "not recorded in the editorial manifest"
+    },
+    {
+      "path": "media/video/voice/06-completion.wav",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "fingerprint": "not recorded in the editorial manifest"
+    },
+    {
+      "path": "media/video/voice/07-achievement.wav",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "fingerprint": "not recorded in the editorial manifest"
+    },
+    {
+      "path": "media/video/voice/08-reset.wav",
+      "scope": "external production input or preserved v1 record; not included in this ZIP",
+      "fingerprint": "not recorded in the editorial manifest"
+    }
+  ]
+}

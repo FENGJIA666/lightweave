@@ -1,0 +1,241 @@
+{
+  "scope": "offline_artifact_structure_not_lens_runtime",
+  "checked": 9,
+  "passed": 9,
+  "results": [
+    {
+      "file": "glb/Flower_Coral_Closed.glb",
+      "result": "pass",
+      "checks": [
+        "glb_header_and_chunks",
+        "accessor_ranges",
+        "finite_values",
+        "triangle_indices",
+        "effective_morph_aabb",
+        "sha256",
+        "animation_timing"
+      ]
+    },
+    {
+      "file": "glb/Flower_Coral_Bloom.glb",
+      "result": "pass",
+      "checks": [
+        "glb_header_and_chunks",
+        "accessor_ranges",
+        "finite_values",
+        "triangle_indices",
+        "effective_morph_aabb",
+        "sha256",
+        "animation_timing"
+      ]
+    },
+    {
+      "file": "glb/Flower_Teal_Closed.glb",
+      "result": "pass",
+      "checks": [
+        "glb_header_and_chunks",
+        "accessor_ranges",
+        "finite_values",
+        "triangle_indices",
+        "effective_morph_aabb",
+        "sha256",
+        "animation_timing"
+      ]
+    },
+    {
+      "file": "glb/Flower_Teal_Bloom.glb",
+      "result": "pass",
+      "checks": [
+        "glb_header_and_chunks",
+        "accessor_ranges",
+        "finite_values",
+        "triangle_indices",
+        "effective_morph_aabb",
+        "sha256",
+        "animation_timing"
+      ]
+    },
+    {
+      "file": "glb/Flower_Gold_Closed.glb",
+      "result": "pass",
+      "checks": [
+        "glb_header_and_chunks",
+        "accessor_ranges",
+        "finite_values",
+        "triangle_indices",
+        "effective_morph_aabb",
+        "sha256",
+        "animation_timing"
+      ]
+    },
+    {
+      "file": "glb/Flower_Gold_Bloom.glb",
+      "result": "pass",
+      "checks": [
+        "glb_header_and_chunks",
+        "accessor_ranges",
+        "finite_values",
+        "triangle_indices",
+        "effective_morph_aabb",
+        "sha256",
+        "animation_timing"
+      ]
+    },
+    {
+      "file": "glb/Mirror_16x18cm.glb",
+      "result": "pass",
+      "checks": [
+        "glb_header_and_chunks",
+        "accessor_ranges",
+        "finite_values",
+        "triangle_indices",
+        "effective_morph_aabb",
+        "sha256",
+        "animation_timing"
+      ]
+    },
+    {
+      "file": "glb/PhotonSource.glb",
+      "result": "pass",
+      "checks": [
+        "glb_header_and_chunks",
+        "accessor_ranges",
+        "finite_values",
+        "triangle_indices",
+        "effective_morph_aabb",
+        "sha256",
+        "animation_timing"
+      ]
+    },
+    {
+      "file": "glb/Beam_1cm.glb",
+      "result": "pass",
+      "checks": [
+        "glb_header_and_chunks",
+        "accessor_ranges",
+        "finite_values",
+        "triangle_indices",
+        "effective_morph_aabb",
+        "sha256",
+        "animation_timing"
+      ]
+    }
+  ],
+  "petal_winding_revision_2": {
+    "scope": "offline_asset_revision_not_lens_runtime",
+    "changed_meshes": [
+      "PetalHighlights",
+      "Petals"
+    ],
+    "preserved": "all base and morph positions, topology counts, sphere and other submeshes, material and animation metadata; non-flower assets byte-identical",
+    "checks": [
+      "six_glb_base_positions_byte_equal",
+      "six_glb_morph_position_deltas_byte_equal",
+      "only_two_mesh_triangle_windings_reversed",
+      "base_and_morph_normals_follow_reversed_faces",
+      "eight_individual_petals_positive_signed_volume_closed_and_bloom",
+      "three_json_shapes_equal_except_indices_and_normals",
+      "all_manifest_hashes_match"
+    ],
+    "results": [
+      {
+        "file": "glb/Flower_Coral_Bloom.glb",
+        "before_sha256": "fac7e1f33058d8d1015371d5ba7b3a47f678935c60e22ebb5e15ee9b12e8d67a",
+        "after_sha256": "e269b88fef2ca3bec11be619a099c779e93bf640a7ca6198f06566cdc04a098b",
+        "result": "pass",
+        "signed_volume_cm3": {
+          "Petals": {
+            "closed_cm3": 0.23155236,
+            "bloom_cm3": 46.3044435
+          },
+          "PetalHighlights": {
+            "closed_cm3": 0.00795983,
+            "bloom_cm3": 1.59171485
+          }
+        }
+      },
+      {
+        "file": "glb/Flower_Coral_Closed.glb",
+        "before_sha256": "47839a3c0cad968921e33647d61540cfaa90749ab1574fdf715ff56fe93d35da",
+        "after_sha256": "547d8a82ffbd6d8d8d88e0723b4b5ff0c36dea0ac979c8678d205ec217ea5619",
+        "result": "pass",
+        "signed_volume_cm3": {
+          "Petals": {
+            "closed_cm3": 0.23155236,
+            "bloom_cm3": 46.3044435
+          },
+          "PetalHighlights": {
+            "closed_cm3": 0.00795983,
+            "bloom_cm3": 1.59171485
+          }
+        }
+      },
+      {
+        "file": "glb/Flower_Gold_Bloom.glb",
+        "before_sha256": "7e2cc319c4f7b083e010d634065d67f0fd5cde0a188c811bb0722541898e992c",
+        "after_sha256": "c662cbb17224e4a9c506433603706497dfc24076e78e54a9ddcb88b4658bbf1f",
+        "result": "pass",
+        "signed_volume_cm3": {
+          "Petals": {
+            "closed_cm3": 0.23155236,
+            "bloom_cm3": 46.3044435
+          },
+          "PetalHighlights": {
+            "closed_cm3": 0.00795983,
+            "bloom_cm3": 1.59171485
+          }
+        }
+      },
+      {
+        "file": "glb/Flower_Gold_Closed.glb",
+        "before_sha256": "eef1a09f4865ba71674eff5296ade706b8d6ce09d49242f0033c9b55921c920b",
+        "after_sha256": "7988da968ed16a80a13b16d3c72890e28308871a79b09100f266dd13fbefd999",
+        "result": "pass",
+        "signed_volume_cm3": {
+          "Petals": {
+            "closed_cm3": 0.23155236,
+            "bloom_cm3": 46.3044435
+          },
+          "PetalHighlights": {
+            "closed_cm3": 0.00795983,
+            "bloom_cm3": 1.59171485
+          }
+        }
+      },
+      {
+        "file": "glb/Flower_Teal_Bloom.glb",
+        "before_sha256": "e9072caad87dcbef43d700e86ebff9e532b60552b0cc8bec8ff8cef92fa98571",
+        "after_sha256": "0fa3e2df0f6e703ad063df588b833fac6b85ad71e2cb206734f8f8ed191ad683",
+        "result": "pass",
+        "signed_volume_cm3": {
+          "Petals": {
+            "closed_cm3": 0.23155236,
+            "bloom_cm3": 46.3044435
+          },
+          "PetalHighlights": {
+            "closed_cm3": 0.00795983,
+            "bloom_cm3": 1.59171485
+          }
+        }
+      },
+      {
+        "file": "glb/Flower_Teal_Closed.glb",
+        "before_sha256": "678e34dd6e1a3a474e96f9551ffa07d19b390924214ea696d0e8d3692316fe91",
+        "after_sha256": "0e1af0fa30d2932cf7c8c260305863500d42e95b4a92681a739fdafaaac1ddb6",
+        "result": "pass",
+        "signed_volume_cm3": {
+          "Petals": {
+            "closed_cm3": 0.23155236,
+            "bloom_cm3": 46.3044435
+          },
+          "PetalHighlights": {
+            "closed_cm3": 0.00795983,
+            "bloom_cm3": 1.59171485
+          }
+        }
+      }
+    ],
+    "runtime_import_status": "awaiting_production_reimport",
+    "gold_flat_cut_runtime_issue": "not_resolved_or_attributed_by_this_revision"
+  }
+}

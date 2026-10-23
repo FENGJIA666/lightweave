@@ -1,0 +1,53 @@
+{
+  "baseline_zip": "LightWeave-project-2026-10-24.zip",
+  "baseline_sha256": "e9fbeaddc05a8618036b1fb144a00b50ad3601c2db13ebce59ea97b72cda4db6",
+  "runnable_files": 77,
+  "runnable_files_unchanged": true,
+  "changed_payload": [
+    "DELIVERY_STATUS.md",
+    "MEDIA_MANIFEST.json",
+    "devpost/design-brief.md",
+    "docs/delivery-validation.md",
+    "docs/internal/production-to-video-handoff.md",
+    "docs/presentation/README-status.md",
+    "docs/presentation/claim-evidence-map.md",
+    "docs/presentation/video-script-en.md",
+    "docs/presentation/video-script-v2-en.md",
+    "docs/presentation/中文审核版.md",
+    "docs/validation-v1.md",
+    "docs/validation.md",
+    "media/video/v2/PRODUCTION_INPUTS.json",
+    "media/video/v2/edit.json",
+    "media/video/v2/v1-fingerprints.json"
+  ],
+  "generated_metadata": [
+    "DELIVERY_MANIFEST.json",
+    "DELIVERY_STATUS.md",
+    "DELTA_MANIFEST.json",
+    "MEDIA_MANIFEST.json",
+    "SHA256SUMS",
+    "docs/delivery-validation.md",
+    "media/video/v2/PRODUCTION_INPUTS.json"
+  ],
+  "export_adaptations": [
+    "docs/internal/production-to-video-handoff.md",
+    "docs/validation.md",
+    "docs/presentation/README-status.md",
+    "docs/presentation/claim-evidence-map.md"
+  ],
+  "source_pins": {
+    "devpost/design-brief.md": "bfd425bab1b60de4b3a891540e548ffa7229bcaf4f4e1b6a85308888cf3ed2c7",
+    "docs/internal/production-to-video-handoff.md": "a66b8355a666d73dd9bbe510ddbfa8754e7a89d3142888e240d42bc303a3705b",
+    "docs/validation.md": "a46a27c0546c4d0d426a894eb39eeffbd0630026bd36a137ef360d9f0dee1808",
+    "docs/validation-v1.md": "2bc5ed7a369b940aef75ee70edbe014051dc2ac2dc6866f44207bacb61f34dfb",
+    "docs/presentation/README-status.md": "83f185216f5d345836a3e014eca17af0b74dc79ff63d8012fbc540f6888051eb",
+    "docs/presentation/claim-evidence-map.md": "92a35473dfac8630035b13869844d0a18e65bebf10bd94b34c4ec43f82082b3d",
+    "docs/presentation/中文审核版.md": "c107cf2af2cb26d231e16954f99b2b62f6c18d0dad531d75a5e930b5ccdb5b41",
+    "docs/presentation/video-script-en.md": "6f59997b5937eff63743d68b1c6b3545bbe5cc420190c8fca8022a29d5a5f671",
+    "docs/presentation/video-script-v2-en.md": "6a739806f26a3872eff5510e1b81ec556615e99043d08dff020181c381e9a477",
+    "media/video/v2/edit.json": "a1d660d0cbf16de12b79d80fc37887edf9a541f851409f1834da2658830d11fe",
+    "media/video/v2/v1-fingerprints.json": "7720a215d60396bb81f4f5ec8a4c9e8e59a4086f77e6beffcd4e179612f3b1b7"
+  },
+  "user_comprehension": "pending-feedback",
+  "subjective_listening": "pending-user-approval"
+}

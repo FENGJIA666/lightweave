@@ -1,0 +1,427 @@
+{
+  "at": "2026-10-24T02:56:00+08:00",
+  "errors": [],
+  "events": [
+    "I 02:54:17.642 [Preview 1] [Assets/Scripts/LightWeaveAudioController.ts:75] [LightWeaveCue] {\"id\":\"replay\",\"run\":2,\"at\":111.72103358339518}",
+    "I 02:54:57.061 [Preview 1] [Assets/Scripts/LightWeaveAudioController.ts:75] [LightWeaveCue] {\"id\":\"mirror_adjust_click\",\"run\":2,\"at\":151.13956266641617}",
+    "I 02:54:58.274 [Preview 1] [Assets/Scripts/LightWeaveAudioController.ts:75] [LightWeaveCue] {\"id\":\"bloom_01\",\"run\":2,\"at\":152.35278008319438}",
+    "I 02:55:00.981 [Preview 1] [Assets/Scripts/LightWeaveAudioController.ts:75] [LightWeaveCue] {\"id\":\"mirror_adjust_click\",\"run\":2,\"at\":155.05983300041407}",
+    "I 02:55:02.185 [Preview 1] [Assets/Scripts/LightWeaveAudioController.ts:75] [LightWeaveCue] {\"id\":\"bloom_02\",\"run\":2,\"at\":156.26379029126838}",
+    "I 02:55:04.870 [Preview 1] [Assets/Scripts/LightWeaveAudioController.ts:75] [LightWeaveCue] {\"id\":\"mirror_adjust_click\",\"run\":2,\"at\":158.94910325016826}",
+    "I 02:55:06.019 [Preview 1] [Assets/Scripts/LightWeaveAudioController.ts:75] [LightWeaveCue] {\"id\":\"bloom_03\",\"run\":2,\"at\":160.09773854119703}",
+    "I 02:55:06.340 [Preview 1] [Assets/Scripts/LightWeaveAudioController.ts:75] [LightWeaveCue] {\"id\":\"garden_complete\",\"run\":2,\"at\":160.41922404104844}"
+  ],
+  "last": {
+    "yaw": 8.689211368560791,
+    "pitch": 23.347049713134766,
+    "earned": [
+      "coral",
+      "teal",
+      "gold"
+    ],
+    "liveHit": "gold"
+  },
+  "boundary": {
+    "errors": [
+      "W 02:52:24.994 Failed to load compile data for file: LightWeaveSceneContracts"
+    ],
+    "states": [
+      {
+        "yaw": -53,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -53,
+        "pitch": -20,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -55,
+        "pitch": -20,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -55,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -50.49397277832031,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -45.77967405319214,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -40.63381338119507,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -35.877832889556885,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -31.335033893585205,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -26.435421466827393,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -21.798080921173096,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -17.839996814727783,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -8.850048542022705,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -3.7624707221984863,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 0.4468111991882324,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 4.189334392547607,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 7.576404094696045,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 11.111754894256592,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 15.377173900604248,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 19.010276317596436,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 22.998801708221436,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 28.877524852752686,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 32.68517255783081,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 36.879600048065186,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 41.31499433517456,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 46.57225751876831,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 49.96167707443237,
+        "pitch": -22,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 53.89562177658081,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 57.632285594940186,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 61.80799055099487,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 65,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 65,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 65,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 65,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 65,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 65,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 65,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 62.03784894943237,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 58.11212873458862,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 52.67320966720581,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 48.30878400802612,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 44.53423261642456,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 40.08093976974487,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 36.360373973846436,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 32.87885236740112,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 28.727317333221436,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 23.48790693283081,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 19.454444408416748,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 14.818915843963623,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 11.010436534881592,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 7.182437419891357,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": 1.4795260429382324,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -2.104343891143799,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -5.822353839874268,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -9.93113374710083,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -14.786839008331299,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -18.650253772735596,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -23.08823823928833,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -27.527946949005127,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -31.259655475616455,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -35.5883355140686,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -40.17015600204468,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -43.95622396469116,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -48.036561489105225,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -53.155996322631836,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      },
+      {
+        "yaw": -55.000017166137695,
+        "pitch": -22.000003814697266,
+        "earned": [],
+        "liveHit": null
+      }
+    ]
+  }
+}

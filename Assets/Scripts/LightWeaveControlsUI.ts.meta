@@ -1,0 +1,141 @@
+- !<AssetImportMetadata/4eefd775-9aca-4c56-8f2e-53bd74ed1f82>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 69b9b464-618f-4f16-9aee-e703147c569d
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 69b9b464-618f-4f16-9aee-e703147c569d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f929f525-c02d-4eae-9b6d-3a4f60bcdf0f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/f929f525-c02d-4eae-9b6d-3a4f60bcdf0f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: d98187d0-f414-424a-9c72-b67776849e3c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    accentColor: false
+    anglesHeightCm: false
+    anglesLabel: false
+    backingStyle: false
+    buttonGapCm: false
+    buttonTheme: false
+    completeLabel: false
+    instructionFadeSeconds: false
+    instructionHeightCm: false
+    instructionLabel: false
+    paddingCm: false
+    panelHeightCm: false
+    panelWidthCm: false
+    pitchMinusLabel: false
+    pitchPlusLabel: false
+    primaryColor: false
+    progressHeightCm: false
+    progressLabel: false
+    replayButtonStyle: false
+    replayLabel: false
+    replayWidthCm: false
+    rotationButtonSizeCm: false
+    rotationButtonStyle: false
+    rowGapCm: false
+    secondaryColor: false
+    successColor: false
+    textDistanceCm: false
+    textScale: false
+    yawMinusLabel: false
+    yawPlusLabel: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelWidthCm: !<float> 60.000000
+      panelHeightCm: !<float> 20.000000
+      rotationButtonSizeCm: !<float> 6.000000
+      replayWidthCm: !<float> 10.000000
+      buttonGapCm: !<float> 2.000000
+      rowGapCm: 0.600000
+      paddingCm: 1.200000
+      instructionHeightCm: 3.200000
+      progressHeightCm: !<float> 3.000000
+      anglesHeightCm: 2.400000
+      backingStyle: default
+      buttonTheme: SnapOS3
+      rotationButtonStyle: Secondary
+      replayButtonStyle: Primary
+      textDistanceCm: !<float> 120.000000
+      textScale: 1.250000
+      primaryColor: !<Vec4> {x: 1.000000, y: 0.970000, z: 0.870000, w: 1.000000}
+      accentColor: !<Vec4> {x: 0.750000, y: 1.000000, z: 0.940000, w: 1.000000}
+      secondaryColor: !<Vec4> {x: 0.800000, y: 0.960000, z: 1.000000, w: 1.000000}
+      successColor: !<Vec4> {x: 1.000000, y: 0.830000, z: 0.370000, w: 1.000000}
+      instructionFadeSeconds: 0.400000
+      instructionLabel: Pinch and drag the mirror
+      yawMinusLabel: Yaw -
+      yawPlusLabel: Yaw +
+      pitchMinusLabel: Pitch -
+      pitchPlusLabel: Pitch +
+      replayLabel: Replay
+      progressLabel: "Blooms {count}/3"
+      completeLabel: "Garden Complete - {count}/3"
+      anglesLabel: "Yaw {yaw}°    Pitch {pitch}°"
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #BFFFF0;\">LightWeave — mirror controls</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Layout in centimeters"}'
+    - '// @input float panelWidthCm = 60 {"hint":"Panel width. The layout preserves room for all five touch targets.", "widget":"slider", "min":44, "max":70, "step":1}'
+    - '// @input float panelHeightCm = 20 {"hint":"Preferred panel height; it expands if rows and padding require more room.", "widget":"slider", "min":16, "max":30, "step":0.5}'
+    - '// @input float rotationButtonSizeCm = 6 {"hint":"Width and height of each fine-angle button; at least 6 cm.", "widget":"slider", "min":6, "max":10, "step":0.5}'
+    - '// @input float replayWidthCm = 10 {"hint":"Replay button width; height matches the rotation buttons.", "widget":"slider", "min":8, "max":14, "step":0.5}'
+    - '// @input float buttonGapCm = 2 {"hint":"Clear horizontal gap between buttons.", "widget":"slider", "min":1, "max":3, "step":0.1}'
+    - '// @input float rowGapCm = 0.6 {"hint":"Vertical gap between the instruction, controls, progress and angles.", "widget":"slider", "min":0.3, "max":2, "step":0.1}'
+    - '// @input float paddingCm = 1.2 {"hint":"Padding inside the BackPlate on every side.", "widget":"slider", "min":1, "max":3, "step":0.1}'
+    - '// @input float instructionHeightCm = 3.2 {"hint":"Height reserved for the instruction; fading it never moves the controls.", "widget":"slider", "min":2.5, "max":5, "step":0.1}'
+    - '// @input float progressHeightCm = 3 {"hint":"Height reserved for the progress or completion message.", "widget":"slider", "min":2.5, "max":5, "step":0.1}'
+    - '// @input float anglesHeightCm = 2.4 {"hint":"Height reserved for the yaw and pitch readout.", "widget":"slider", "min":2, "max":4, "step":0.1}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Appearance"}'
+    - '// @input string backingStyle = "default" {"hint":"UIKit BackPlate surface style. Text and buttons remain bright independently.", "widget":"combobox", "values":[{"label":"Default", "value":"default"}, {"label":"Simple", "value":"simple"}, {"label":"Dark", "value":"dark"}]}'
+    - '// @input string buttonTheme = "SnapOS3" {"hint":"Official UIKit theme used by the buttons, selected before initialization.", "widget":"combobox", "values":[{"label":"SnapOS 3", "value":"SnapOS3"}, {"label":"SnapOS 2", "value":"SnapOS2"}]}'
+    - '// @input string rotationButtonStyle = "Secondary" {"hint":"Official UIKit style for the four rotation buttons.", "widget":"combobox", "values":[{"label":"Secondary", "value":"Secondary"}, {"label":"Primary", "value":"Primary"}, {"label":"Ghost", "value":"Ghost"}]}'
+    - '// @input string replayButtonStyle = "Primary" {"hint":"Official UIKit style for Replay.", "widget":"combobox", "values":[{"label":"Primary", "value":"Primary"}, {"label":"Secondary", "value":"Secondary"}, {"label":"Ghost", "value":"Ghost"}]}'
+    - '// @input float textDistanceCm = 120 {"hint":"Typography calibration distance; it does not move the UI root.", "widget":"slider", "min":60, "max":160, "step":5}'
+    - '// @input float textScale = 1.25 {"hint":"Uniform multiplier for the official text roles, using the system font.", "widget":"slider", "min":1, "max":1.8, "step":0.05}'
+    - '// @input vec4 primaryColor = {1,0.97,0.87,1} {"hint":"Bright primary labels and rotation-button text.", "widget":"color"}'
+    - '// @input vec4 accentColor = {0.75,1,0.94,1} {"hint":"Instruction and normal progress color.", "widget":"color"}'
+    - '// @input vec4 secondaryColor = {0.8,0.96,1,1} {"hint":"Bright angle readout color.", "widget":"color"}'
+    - '// @input vec4 successColor = {1,0.83,0.37,1} {"hint":"Completion message and Replay label color.", "widget":"color"}'
+    - '// @input float instructionFadeSeconds = 0.4 {"hint":"Instruction fade-out duration after the owner accepts the first action.", "widget":"slider", "min":0.1, "max":1, "step":0.05}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Labels"}'
+    - '// @input string instructionLabel = "Pinch and drag the mirror" {"hint":"Instruction shown at start and restored by Replay through the owner."}'
+    - '// @input string yawMinusLabel = "Yaw -" {"hint":"Label for the negative yaw increment."}'
+    - '// @input string yawPlusLabel = "Yaw +" {"hint":"Label for the positive yaw increment."}'
+    - '// @input string pitchMinusLabel = "Pitch -" {"hint":"Label for the negative pitch increment."}'
+    - '// @input string pitchPlusLabel = "Pitch +" {"hint":"Label for the positive pitch increment."}'
+    - '// @input string replayLabel = "Replay" {"hint":"Replay action label; the UI emits an event without resetting domain state."}'
+    - '// @input string progressLabel = "Blooms {count}/3" {"hint":"Progress template; {count} is replaced with the value supplied by Main."}'
+    - '// @input string completeLabel = "Garden Complete - {count}/3" {"hint":"Completion template; shown only when Main supplies complete=true."}'
+    - '// @input string anglesLabel = "Yaw {yaw}°    Pitch {pitch}°" {"hint":"Angle template; {yaw} and {pitch} are formatted in degrees."}'
+    - '// @ui {"widget":"group_end"}'

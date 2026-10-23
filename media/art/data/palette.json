@@ -1,0 +1,23 @@
+{
+  "palette": {
+    "coral": "#FF6D88",
+    "coral_edge": "#FFD3C2",
+    "teal": "#28E6C6",
+    "teal_edge": "#BDFFF0",
+    "gold": "#FFCD59",
+    "gold_edge": "#FFF0BB",
+    "beam": "#FFC547",
+    "beam_core": "#FFF1B3",
+    "mirror": "#55DCD9",
+    "mirror_edge": "#C7FFF4",
+    "stem": "#38BBA4",
+    "pearl": "#FFF8DC"
+  },
+  "lens_material_recommendation": {
+    "surface": "unlit emissive",
+    "beam": "additive, depth tested",
+    "mirror_pane": "transparent additive tinted cyan",
+    "black": "no opaque backdrop; optical additive display shows black as transparent"
+  },
+  "status": "design_recipe_not_lens_materials"
+}

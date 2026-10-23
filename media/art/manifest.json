@@ -1,0 +1,320 @@
+{
+  "schema": "lightweave.art-handoff.v1",
+  "status": "offline_original_assets_not_imported",
+  "assets": [
+    {
+      "name": "Flower_Coral_Closed",
+      "path": "glb/Flower_Coral_Closed.glb",
+      "bytes": 64096,
+      "sha256": "547d8a82ffbd6d8d8d88e0723b4b5ff0c36dea0ac979c8678d205ec217ea5619",
+      "status": "local_asset_ready_not_imported",
+      "backend": "original_procedural_geometry",
+      "backend_reason": "animated_articulated petals; local source art only while official session setup is in progress",
+      "aabb_cm": [
+        8.9419,
+        14.97124,
+        15.47713
+      ],
+      "aabb_min_cm": [
+        -4.47124,
+        -10.5,
+        -5.0
+      ],
+      "aabb_max_cm": [
+        4.47066,
+        4.47124,
+        10.47713
+      ],
+      "aabb_center_offset_cm": [
+        -0.00029,
+        -3.01438,
+        2.73856
+      ],
+      "forward_axis": "-Z",
+      "upright": true,
+      "animation_available": true,
+      "triangles": 1724,
+      "vertices": 970
+    },
+    {
+      "name": "Flower_Coral_Bloom",
+      "path": "glb/Flower_Coral_Bloom.glb",
+      "bytes": 64092,
+      "sha256": "e269b88fef2ca3bec11be619a099c779e93bf640a7ca6198f06566cdc04a098b",
+      "status": "local_asset_ready_not_imported",
+      "backend": "original_procedural_geometry",
+      "backend_reason": "animated_articulated petals; local source art only while official session setup is in progress",
+      "aabb_cm": [
+        18.0,
+        19.5,
+        11.5
+      ],
+      "aabb_min_cm": [
+        -9.0,
+        -10.5,
+        -5.0
+      ],
+      "aabb_max_cm": [
+        9.0,
+        9.0,
+        6.5
+      ],
+      "aabb_center_offset_cm": [
+        0.0,
+        -0.75,
+        0.75
+      ],
+      "forward_axis": "-Z",
+      "upright": true,
+      "animation_available": true,
+      "triangles": 1724,
+      "vertices": 970
+    },
+    {
+      "name": "Flower_Teal_Closed",
+      "path": "glb/Flower_Teal_Closed.glb",
+      "bytes": 64144,
+      "sha256": "0e1af0fa30d2932cf7c8c260305863500d42e95b4a92681a739fdafaaac1ddb6",
+      "status": "local_asset_ready_not_imported",
+      "backend": "original_procedural_geometry",
+      "backend_reason": "animated_articulated petals; local source art only while official session setup is in progress",
+      "aabb_cm": [
+        8.9419,
+        14.97124,
+        15.47713
+      ],
+      "aabb_min_cm": [
+        -4.47124,
+        -10.5,
+        -5.0
+      ],
+      "aabb_max_cm": [
+        4.47066,
+        4.47124,
+        10.47713
+      ],
+      "aabb_center_offset_cm": [
+        -0.00029,
+        -3.01438,
+        2.73856
+      ],
+      "forward_axis": "-Z",
+      "upright": true,
+      "animation_available": true,
+      "triangles": 1724,
+      "vertices": 970
+    },
+    {
+      "name": "Flower_Teal_Bloom",
+      "path": "glb/Flower_Teal_Bloom.glb",
+      "bytes": 64144,
+      "sha256": "0fa3e2df0f6e703ad063df588b833fac6b85ad71e2cb206734f8f8ed191ad683",
+      "status": "local_asset_ready_not_imported",
+      "backend": "original_procedural_geometry",
+      "backend_reason": "animated_articulated petals; local source art only while official session setup is in progress",
+      "aabb_cm": [
+        18.0,
+        19.5,
+        11.5
+      ],
+      "aabb_min_cm": [
+        -9.0,
+        -10.5,
+        -5.0
+      ],
+      "aabb_max_cm": [
+        9.0,
+        9.0,
+        6.5
+      ],
+      "aabb_center_offset_cm": [
+        0.0,
+        -0.75,
+        0.75
+      ],
+      "forward_axis": "-Z",
+      "upright": true,
+      "animation_available": true,
+      "triangles": 1724,
+      "vertices": 970
+    },
+    {
+      "name": "Flower_Gold_Closed",
+      "path": "glb/Flower_Gold_Closed.glb",
+      "bytes": 64084,
+      "sha256": "7988da968ed16a80a13b16d3c72890e28308871a79b09100f266dd13fbefd999",
+      "status": "local_asset_ready_not_imported",
+      "backend": "original_procedural_geometry",
+      "backend_reason": "animated_articulated petals; local source art only while official session setup is in progress",
+      "aabb_cm": [
+        8.9419,
+        14.97124,
+        15.47713
+      ],
+      "aabb_min_cm": [
+        -4.47124,
+        -10.5,
+        -5.0
+      ],
+      "aabb_max_cm": [
+        4.47066,
+        4.47124,
+        10.47713
+      ],
+      "aabb_center_offset_cm": [
+        -0.00029,
+        -3.01438,
+        2.73856
+      ],
+      "forward_axis": "-Z",
+      "upright": true,
+      "animation_available": true,
+      "triangles": 1724,
+      "vertices": 970
+    },
+    {
+      "name": "Flower_Gold_Bloom",
+      "path": "glb/Flower_Gold_Bloom.glb",
+      "bytes": 64084,
+      "sha256": "c662cbb17224e4a9c506433603706497dfc24076e78e54a9ddcb88b4658bbf1f",
+      "status": "local_asset_ready_not_imported",
+      "backend": "original_procedural_geometry",
+      "backend_reason": "animated_articulated petals; local source art only while official session setup is in progress",
+      "aabb_cm": [
+        18.0,
+        19.5,
+        11.5
+      ],
+      "aabb_min_cm": [
+        -9.0,
+        -10.5,
+        -5.0
+      ],
+      "aabb_max_cm": [
+        9.0,
+        9.0,
+        6.5
+      ],
+      "aabb_center_offset_cm": [
+        0.0,
+        -0.75,
+        0.75
+      ],
+      "forward_axis": "-Z",
+      "upright": true,
+      "animation_available": true,
+      "triangles": 1724,
+      "vertices": 970
+    },
+    {
+      "name": "Mirror_16x18cm",
+      "path": "glb/Mirror_16x18cm.glb",
+      "bytes": 19780,
+      "sha256": "56ffaab22c2835f1fb73225c865a6e3978d1a8622a5cd72d5cf49b233ba635ab",
+      "status": "local_asset_ready_not_imported",
+      "backend": "original_procedural_geometry",
+      "backend_reason": "animated_articulated petals; local source art only while official session setup is in progress",
+      "aabb_cm": [
+        16.0,
+        18.0,
+        1.33
+      ],
+      "aabb_min_cm": [
+        -8.0,
+        -9.0,
+        -0.93
+      ],
+      "aabb_max_cm": [
+        8.0,
+        9.0,
+        0.4
+      ],
+      "aabb_center_offset_cm": [
+        0.0,
+        0.0,
+        -0.265
+      ],
+      "forward_axis": "-Z",
+      "upright": true,
+      "animation_available": false,
+      "triangles": 308,
+      "vertices": 232
+    },
+    {
+      "name": "PhotonSource",
+      "path": "glb/PhotonSource.glb",
+      "bytes": 35332,
+      "sha256": "b79755d274d0edef5b9b1d27fe7c97aa6a64ac2a56e8962a8970f1610b16cc33",
+      "status": "local_asset_ready_not_imported",
+      "backend": "original_procedural_geometry",
+      "backend_reason": "animated_articulated petals; local source art only while official session setup is in progress",
+      "aabb_cm": [
+        7.42095,
+        7.42124,
+        4.2
+      ],
+      "aabb_min_cm": [
+        -3.71062,
+        -3.71062,
+        -2.1
+      ],
+      "aabb_max_cm": [
+        3.71033,
+        3.71062,
+        2.1
+      ],
+      "aabb_center_offset_cm": [
+        -0.00015,
+        0.0,
+        0.0
+      ],
+      "forward_axis": "-Z",
+      "upright": true,
+      "animation_available": false,
+      "triangles": 1232,
+      "vertices": 684
+    },
+    {
+      "name": "Beam_1cm",
+      "path": "glb/Beam_1cm.glb",
+      "bytes": 3680,
+      "sha256": "489ff2e7d2f69ecaadc6fa91acf6ba440ca5a00480936c7c9be1fb44000633ff",
+      "status": "local_asset_ready_not_imported",
+      "backend": "original_procedural_geometry",
+      "backend_reason": "animated_articulated petals; local source art only while official session setup is in progress",
+      "aabb_cm": [
+        0.44,
+        0.44,
+        1.0
+      ],
+      "aabb_min_cm": [
+        -0.22,
+        -0.22,
+        0.0
+      ],
+      "aabb_max_cm": [
+        0.22,
+        0.22,
+        1.0
+      ],
+      "aabb_center_offset_cm": [
+        0.0,
+        0.0,
+        0.5
+      ],
+      "forward_axis": "+Z",
+      "upright": true,
+      "animation_available": false,
+      "triangles": 56,
+      "vertices": 32
+    }
+  ],
+  "receiver_radius_cm": 4,
+  "mirror_width_cm": 16,
+  "mirror_height_cm": 18,
+  "flower_front_axis": "-Z",
+  "flower_petals_min_z_cm": 4.533397,
+  "morph_duration_seconds": 0.85,
+  "preview_type": "offline_software_render",
+  "petal_winding_revision": 2
+}

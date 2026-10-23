@@ -1,0 +1,289 @@
+{
+  "project": "LightWeave / Photon Garden",
+  "stage": "offline assets; not imported into Lens",
+  "sample_rate": 44100,
+  "bit_depth": 16,
+  "format": "PCM WAV",
+  "engine": "Official CLAD build-sfx + build-music",
+  "upstream_revision": "8adedd5d5b93f9dbe55f31c6be4264a4f8a608b3",
+  "engine_source_relative": "tools/cache/ls-extensions-source/plugins/ls-clad/skills",
+  "source_license": "Apache-2.0; see ENGINE-LICENSE.txt",
+  "provenance": "Locally generated algorithmic synthesis. No third-party audio recordings, samples, datasets, model weights, voice recordings or cloned voices. No network or paid service used.",
+  "regeneration": "node media/audio/generate.cjs creates a fresh timbral take; preserve delivered WAV hashes for exact reuse.",
+  "assets": [
+    {
+      "id": "mirror_adjust_click",
+      "file": "media/audio/mirror_adjust_click.wav",
+      "lens_destination": "Assets/GeneratedSFX/mirror_adjust_click.wav",
+      "purpose": "Mirror grab / deliberately throttled adjustment tick",
+      "synthesis": "Layered uiClick soft preset; HPF; short fades",
+      "loop": false,
+      "channels": 1,
+      "spatial": "Attach to the mirror",
+      "suggested_gain": 0.55,
+      "trigger": "Grab start; optional angle-step ticks with at least 100 ms cooldown. Never every frame.",
+      "measurement": {
+        "file": "media/audio/mirror_adjust_click.wav",
+        "bytes": 7100,
+        "sha256": "b501d4cda75f6bcd82d7acb0f4022011d42bf9b2d14889429cbd83a3656dfec4",
+        "duration_seconds": 0.08,
+        "frames": 3528,
+        "sample_rate": 44100,
+        "channels": 1,
+        "pcm_bits": 16,
+        "sample_peak_dbfs": -23.003,
+        "true_peak_dbtp": -22.98,
+        "rms_dbfs": -41.9648,
+        "integrated_lufs": null,
+        "loudness_note": "80 ms transient is shorter than the 400 ms BS.1770 block; integrated LUFS not reported. Use measured RMS and peak.",
+        "clipped_samples": 0,
+        "dc_mean_per_channel": [
+          0.0
+        ],
+        "decoded": true
+      }
+    },
+    {
+      "id": "bloom_01",
+      "file": "media/audio/bloom_01.wav",
+      "lens_destination": "Assets/GeneratedSFX/bloom_01.wav",
+      "purpose": "Flower 1 activation",
+      "note": "D5",
+      "scale_degree": 0,
+      "synthesis": "Original D-major motif; musicBox + kalimba physical synthesis; short room tail",
+      "loop": false,
+      "channels": 1,
+      "spatial": "Attach to its flower",
+      "suggested_gain": 0.7,
+      "trigger": "Once when this target first becomes complete; re-arm after reset.",
+      "measurement": {
+        "file": "media/audio/bloom_01.wav",
+        "bytes": 185264,
+        "sha256": "6905adbae333f2fc78ff8cacd94bae5644ac51515f9cf1187b4b16fceb65cbb4",
+        "duration_seconds": 2.1,
+        "frames": 92610,
+        "sample_rate": 44100,
+        "channels": 1,
+        "pcm_bits": 16,
+        "sample_peak_dbfs": -16.0006,
+        "true_peak_dbtp": -16.0,
+        "rms_dbfs": -37.5361,
+        "integrated_lufs": -36.08,
+        "loudness_note": "Integrated LUFS is gated over the file; RMS dBFS is the exact full-file digital signal level.",
+        "clipped_samples": 0,
+        "dc_mean_per_channel": [
+          0.0
+        ],
+        "decoded": true
+      }
+    },
+    {
+      "id": "bloom_02",
+      "file": "media/audio/bloom_02.wav",
+      "lens_destination": "Assets/GeneratedSFX/bloom_02.wav",
+      "purpose": "Flower 2 activation",
+      "note": "F#5",
+      "scale_degree": 2,
+      "synthesis": "Original D-major motif; musicBox + kalimba physical synthesis; short room tail",
+      "loop": false,
+      "channels": 1,
+      "spatial": "Attach to its flower",
+      "suggested_gain": 0.7,
+      "trigger": "Once when this target first becomes complete; re-arm after reset.",
+      "measurement": {
+        "file": "media/audio/bloom_02.wav",
+        "bytes": 185264,
+        "sha256": "3ce91b1fd68f6695d2ddf6ddedbba4d2ebb78e9bd10449ea3a1873681e90d4e7",
+        "duration_seconds": 2.1,
+        "frames": 92610,
+        "sample_rate": 44100,
+        "channels": 1,
+        "pcm_bits": 16,
+        "sample_peak_dbfs": -16.0006,
+        "true_peak_dbtp": -15.99,
+        "rms_dbfs": -36.9613,
+        "integrated_lufs": -35.94,
+        "loudness_note": "Integrated LUFS is gated over the file; RMS dBFS is the exact full-file digital signal level.",
+        "clipped_samples": 0,
+        "dc_mean_per_channel": [
+          0.0
+        ],
+        "decoded": true
+      }
+    },
+    {
+      "id": "bloom_03",
+      "file": "media/audio/bloom_03.wav",
+      "lens_destination": "Assets/GeneratedSFX/bloom_03.wav",
+      "purpose": "Flower 3 activation",
+      "note": "A5",
+      "scale_degree": 4,
+      "synthesis": "Original D-major motif; musicBox + kalimba physical synthesis; short room tail",
+      "loop": false,
+      "channels": 1,
+      "spatial": "Attach to its flower",
+      "suggested_gain": 0.7,
+      "trigger": "Once when this target first becomes complete; re-arm after reset.",
+      "measurement": {
+        "file": "media/audio/bloom_03.wav",
+        "bytes": 185264,
+        "sha256": "9f83a4b13aec638cf4125ba446ad0af03671ee38cf55d4bf696716bf47886274",
+        "duration_seconds": 2.1,
+        "frames": 92610,
+        "sample_rate": 44100,
+        "channels": 1,
+        "pcm_bits": 16,
+        "sample_peak_dbfs": -16.0006,
+        "true_peak_dbtp": -15.98,
+        "rms_dbfs": -37.5733,
+        "integrated_lufs": -35.84,
+        "loudness_note": "Integrated LUFS is gated over the file; RMS dBFS is the exact full-file digital signal level.",
+        "clipped_samples": 0,
+        "dc_mean_per_channel": [
+          -0.0
+        ],
+        "decoded": true
+      }
+    },
+    {
+      "id": "garden_complete",
+      "file": "media/audio/garden_complete.wav",
+      "lens_destination": "Assets/GeneratedSFX/garden_complete.wav",
+      "purpose": "All three flowers complete",
+      "synthesis": "Original ascending D-major discovery motif plus tonic add9 bloom",
+      "harmony_meta": {
+        "genre": "dreamy",
+        "seed": 963485550,
+        "scale": "major",
+        "key": "D4",
+        "progression": [
+          "I"
+        ],
+        "voicing": "closeVoiced",
+        "extension": "add9",
+        "voicingMode": "centroid"
+      },
+      "bpm": 76,
+      "loop": false,
+      "channels": 1,
+      "spatial": "Garden center",
+      "suggested_gain": 0.65,
+      "trigger": "Once on transition to 3/3 complete; delay 300 ms after final bloom onset.",
+      "measurement": {
+        "file": "media/audio/garden_complete.wav",
+        "bytes": 282284,
+        "sha256": "5e971162b3024c9b5a51a3d5c74a747f982ff1860eb99b0f744dddbcbc2d58a9",
+        "duration_seconds": 3.2,
+        "frames": 141120,
+        "sample_rate": 44100,
+        "channels": 1,
+        "pcm_bits": 16,
+        "sample_peak_dbfs": -14.0001,
+        "true_peak_dbtp": -13.99,
+        "rms_dbfs": -32.3902,
+        "integrated_lufs": -28.57,
+        "loudness_note": "Integrated LUFS is gated over the file; RMS dBFS is the exact full-file digital signal level.",
+        "clipped_samples": 0,
+        "dc_mean_per_channel": [
+          0.0
+        ],
+        "decoded": true
+      }
+    },
+    {
+      "id": "garden_air_loop",
+      "file": "media/audio/garden_air_loop.wav",
+      "lens_destination": "Assets/GeneratedSFX/garden_air_loop.wav",
+      "purpose": "Quiet moving garden air",
+      "synthesis": "Granular wind preset + gentle amplitude motion; 190 Hz HPF / 2400 Hz LPF",
+      "loop": true,
+      "loop_seconds": 16,
+      "crossfade_seconds": 2,
+      "channels": 2,
+      "spatial": "Non-positional stereo bed; event sounds are positioned separately",
+      "suggested_gain": 0.25,
+      "trigger": "Start with scene; fade in/out over 500 ms; duck 4 dB during completion or narration.",
+      "measurement": {
+        "file": "media/audio/garden_air_loop.wav",
+        "bytes": 2822444,
+        "sha256": "77750dd598ce493d94703041a99cbac33aff141c692108c654f2634d50588bda",
+        "duration_seconds": 16.0,
+        "frames": 705600,
+        "sample_rate": 44100,
+        "channels": 2,
+        "pcm_bits": 16,
+        "sample_peak_dbfs": -18.0005,
+        "true_peak_dbtp": -17.99,
+        "rms_dbfs": -34.0981,
+        "integrated_lufs": -30.66,
+        "loudness_note": "Integrated LUFS is gated over the file; RMS dBFS is the exact full-file digital signal level.",
+        "clipped_samples": 0,
+        "dc_mean_per_channel": [
+          -0.0,
+          -0.0
+        ],
+        "decoded": true
+      }
+    }
+  ],
+  "audition": {
+    "file": "media/audio/LightWeave-audio-audition.wav",
+    "delivery_asset": false,
+    "seconds": 18,
+    "events": [
+      {
+        "second": 0.5,
+        "id": "mirror_adjust_click"
+      },
+      {
+        "second": 1.1,
+        "id": "mirror_adjust_click"
+      },
+      {
+        "second": 2,
+        "id": "bloom_01"
+      },
+      {
+        "second": 5,
+        "id": "bloom_02"
+      },
+      {
+        "second": 8,
+        "id": "bloom_03"
+      },
+      {
+        "second": 11,
+        "id": "garden_complete"
+      }
+    ]
+  },
+  "verification": {
+    "loop_seam": {
+      "method": "2 second complementary cosine tail-to-head crossfade; continuous sample join",
+      "channels": [
+        {
+          "channel": 0,
+          "join_step_dbfs": -84.2884,
+          "adjacent_step_p99_9_dbfs": -43.5001,
+          "join_to_p99_9_ratio": 0.0091,
+          "rms_50ms_before_dbfs": -39.3103,
+          "rms_50ms_after_dbfs": -38.749
+        },
+        {
+          "channel": 1,
+          "join_step_dbfs": -68.0301,
+          "adjacent_step_p99_9_dbfs": -43.6602,
+          "join_to_p99_9_ratio": 0.0605,
+          "rms_50ms_before_dbfs": -40.1237,
+          "rms_50ms_after_dbfs": -40.5336
+        }
+      ],
+      "sample_discontinuity_check": "pass",
+      "two_cycle_decode": "pass",
+      "listening_review": "pending"
+    },
+    "listening_review": "pending; no unsupported audio-hearing claim",
+    "lens_import": "pending",
+    "runtime_spatial_mix": "pending"
+  }
+}

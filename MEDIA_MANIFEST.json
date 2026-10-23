@@ -1,0 +1,44 @@
+{
+  "status": "frozen-local-v2-delivery",
+  "files": [
+    {
+      "filename": "LightWeave-demo-v2-captioned.mp4",
+      "sha256": "974ede5e9d5478fb735d9b7726c8edaf276525d6a9418dc064977c2bcd557962",
+      "bytes": 8055930,
+      "duration_seconds": 125.021333,
+      "delivery": "separate accompanying file"
+    },
+    {
+      "filename": "LightWeave-demo-v2-clean.mp4",
+      "sha256": "3a22a5271e95a234f972605cab470cd689c4dae066cf42351d5fe6c565b30435",
+      "bytes": 7842081,
+      "duration_seconds": 125.021333,
+      "delivery": "separate accompanying file"
+    }
+  ],
+  "preserved_v1": {
+    "status": "local-delivery",
+    "files": [
+      {
+        "filename": "LightWeave-demo-captioned.mp4",
+        "sha256": "3a60918c99ca960adad121cfcd5934001c61482e4a11dafc7a2974ff94d13ca9",
+        "bytes": 9401828,
+        "duration_seconds": 150.021333,
+        "width": 1920,
+        "height": 1080,
+        "delivery": "separate accompanying file; not embedded in the project archive"
+      },
+      {
+        "filename": "LightWeave-demo-clean.mp4",
+        "sha256": "c06c5099db31573966947328d1f64d34f400a497169a0d13e54f5470767675df",
+        "bytes": 9160138,
+        "duration_seconds": 150.021333,
+        "width": 1920,
+        "height": 1080,
+        "delivery": "separate accompanying file; not embedded in the project archive"
+      }
+    ]
+  },
+  "user_comprehension": "pending-feedback",
+  "subjective_listening": "pending-user-approval"
+}

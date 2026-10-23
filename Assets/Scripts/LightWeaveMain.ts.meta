@@ -1,0 +1,87 @@
+- !<AssetImportMetadata/eff47c81-9d02-49da-8352-1d3fdf4d2f48>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> d4cc2d30-e679-4061-a026-3eacdc169445
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> d4cc2d30-e679-4061-a026-3eacdc169445
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 453d4979-dad9-4edc-ac05-5f7d57653ecf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/453d4979-dad9-4edc-ac05-5f7d57653ecf>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: eed079fd-a588-4fba-8528-a2b7f49ecd2f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    ambientGain: false
+    beamPool: false
+    bloomSeconds: false
+    controlsUI: false
+    coralFlower: false
+    debugColliders: false
+    dragSensitivity: false
+    gardenRoot: false
+    goldFlower: false
+    mirrorHitTarget: false
+    mirrorPose: false
+    sfxGain: false
+    tealFlower: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - controlsUI: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      gardenRoot: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mirrorPose: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mirrorHitTarget: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      beamPool: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      coralFlower: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tealFlower: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      goldFlower: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      dragSensitivity: !<float> 2.000000
+      bloomSeconds: 0.850000
+      sfxGain: !<float> 1.000000
+      ambientGain: 0.250000
+      debugColliders: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">LightWeave — shape light, bloom a garden</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input AssignableType_1 controlsUI {"hint":"Passive UIKit control panel"}'
+    - '// @input SceneObject gardenRoot {"hint":"Common optical coordinate frame"}'
+    - '// @input SceneObject mirrorPose {"hint":"Rotating mirror visual pose; optical center stays fixed"}'
+    - '// @input SceneObject mirrorHitTarget {"hint":"Identity-rotation world-space SIK hit wrapper"}'
+    - '// @input SceneObject beamPool {"hint":"Pool parent for data-driven beam segments"}'
+    - '// @input SceneObject coralFlower {"hint":"Authored coral flower visual"}'
+    - '// @input SceneObject tealFlower {"hint":"Authored teal flower visual"}'
+    - '// @input SceneObject goldFlower {"hint":"Authored elevated gold flower visual"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float dragSensitivity = 2 {"hint":"Degrees per centimeter of mirror drag", "widget":"slider", "min":0.5, "max":5, "step":0.1}'
+    - '// @input float bloomSeconds = 0.85 {"hint":"Seconds for a newly earned flower to unfold", "widget":"slider", "min":0.2, "max":2, "step":0.05}'
+    - '// @input float sfxGain = 1 {"hint":"Multiplier for original event sounds", "widget":"slider", "min":0, "max":1, "step":0.05}'
+    - '// @input float ambientGain = 0.25 {"hint":"Quiet garden air bed", "widget":"slider", "min":0, "max":1, "step":0.05}'
+    - '// @input bool debugColliders {"hint":"Show hit volumes when diagnosing input"}'
+    - '// @ui {"widget":"group_end"}'

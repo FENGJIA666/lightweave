@@ -1,0 +1,170 @@
+{
+  "assets": {
+    "mirror_adjust_click": {
+      "file": "media/audio/mirror_adjust_click.wav",
+      "bytes": 7100,
+      "sha256": "b501d4cda75f6bcd82d7acb0f4022011d42bf9b2d14889429cbd83a3656dfec4",
+      "duration_seconds": 0.08,
+      "frames": 3528,
+      "sample_rate": 44100,
+      "channels": 1,
+      "pcm_bits": 16,
+      "sample_peak_dbfs": -23.003,
+      "true_peak_dbtp": -22.98,
+      "rms_dbfs": -41.9648,
+      "integrated_lufs": null,
+      "loudness_note": "80 ms transient is shorter than the 400 ms BS.1770 block; integrated LUFS not reported. Use measured RMS and peak.",
+      "clipped_samples": 0,
+      "dc_mean_per_channel": [
+        0.0
+      ],
+      "decoded": true
+    },
+    "bloom_01": {
+      "file": "media/audio/bloom_01.wav",
+      "bytes": 185264,
+      "sha256": "6905adbae333f2fc78ff8cacd94bae5644ac51515f9cf1187b4b16fceb65cbb4",
+      "duration_seconds": 2.1,
+      "frames": 92610,
+      "sample_rate": 44100,
+      "channels": 1,
+      "pcm_bits": 16,
+      "sample_peak_dbfs": -16.0006,
+      "true_peak_dbtp": -16.0,
+      "rms_dbfs": -37.5361,
+      "integrated_lufs": -36.08,
+      "loudness_note": "Integrated LUFS is gated over the file; RMS dBFS is the exact full-file digital signal level.",
+      "clipped_samples": 0,
+      "dc_mean_per_channel": [
+        0.0
+      ],
+      "decoded": true
+    },
+    "bloom_02": {
+      "file": "media/audio/bloom_02.wav",
+      "bytes": 185264,
+      "sha256": "3ce91b1fd68f6695d2ddf6ddedbba4d2ebb78e9bd10449ea3a1873681e90d4e7",
+      "duration_seconds": 2.1,
+      "frames": 92610,
+      "sample_rate": 44100,
+      "channels": 1,
+      "pcm_bits": 16,
+      "sample_peak_dbfs": -16.0006,
+      "true_peak_dbtp": -15.99,
+      "rms_dbfs": -36.9613,
+      "integrated_lufs": -35.94,
+      "loudness_note": "Integrated LUFS is gated over the file; RMS dBFS is the exact full-file digital signal level.",
+      "clipped_samples": 0,
+      "dc_mean_per_channel": [
+        0.0
+      ],
+      "decoded": true
+    },
+    "bloom_03": {
+      "file": "media/audio/bloom_03.wav",
+      "bytes": 185264,
+      "sha256": "9f83a4b13aec638cf4125ba446ad0af03671ee38cf55d4bf696716bf47886274",
+      "duration_seconds": 2.1,
+      "frames": 92610,
+      "sample_rate": 44100,
+      "channels": 1,
+      "pcm_bits": 16,
+      "sample_peak_dbfs": -16.0006,
+      "true_peak_dbtp": -15.98,
+      "rms_dbfs": -37.5733,
+      "integrated_lufs": -35.84,
+      "loudness_note": "Integrated LUFS is gated over the file; RMS dBFS is the exact full-file digital signal level.",
+      "clipped_samples": 0,
+      "dc_mean_per_channel": [
+        -0.0
+      ],
+      "decoded": true
+    },
+    "garden_complete": {
+      "file": "media/audio/garden_complete.wav",
+      "bytes": 282284,
+      "sha256": "5e971162b3024c9b5a51a3d5c74a747f982ff1860eb99b0f744dddbcbc2d58a9",
+      "duration_seconds": 3.2,
+      "frames": 141120,
+      "sample_rate": 44100,
+      "channels": 1,
+      "pcm_bits": 16,
+      "sample_peak_dbfs": -14.0001,
+      "true_peak_dbtp": -13.99,
+      "rms_dbfs": -32.3902,
+      "integrated_lufs": -28.57,
+      "loudness_note": "Integrated LUFS is gated over the file; RMS dBFS is the exact full-file digital signal level.",
+      "clipped_samples": 0,
+      "dc_mean_per_channel": [
+        0.0
+      ],
+      "decoded": true
+    },
+    "garden_air_loop": {
+      "file": "media/audio/garden_air_loop.wav",
+      "bytes": 2822444,
+      "sha256": "77750dd598ce493d94703041a99cbac33aff141c692108c654f2634d50588bda",
+      "duration_seconds": 16.0,
+      "frames": 705600,
+      "sample_rate": 44100,
+      "channels": 2,
+      "pcm_bits": 16,
+      "sample_peak_dbfs": -18.0005,
+      "true_peak_dbtp": -17.99,
+      "rms_dbfs": -34.0981,
+      "integrated_lufs": -30.66,
+      "loudness_note": "Integrated LUFS is gated over the file; RMS dBFS is the exact full-file digital signal level.",
+      "clipped_samples": 0,
+      "dc_mean_per_channel": [
+        -0.0,
+        -0.0
+      ],
+      "decoded": true
+    }
+  },
+  "loop_seam": {
+    "method": "2 second complementary cosine tail-to-head crossfade; continuous sample join",
+    "channels": [
+      {
+        "channel": 0,
+        "join_step_dbfs": -84.2884,
+        "adjacent_step_p99_9_dbfs": -43.5001,
+        "join_to_p99_9_ratio": 0.0091,
+        "rms_50ms_before_dbfs": -39.3103,
+        "rms_50ms_after_dbfs": -38.749
+      },
+      {
+        "channel": 1,
+        "join_step_dbfs": -68.0301,
+        "adjacent_step_p99_9_dbfs": -43.6602,
+        "join_to_p99_9_ratio": 0.0605,
+        "rms_50ms_before_dbfs": -40.1237,
+        "rms_50ms_after_dbfs": -40.5336
+      }
+    ],
+    "sample_discontinuity_check": "pass",
+    "two_cycle_decode": "pass",
+    "listening_review": "pending"
+  },
+  "audition": {
+    "file": "media/audio/LightWeave-audio-audition.wav",
+    "bytes": 3175244,
+    "sha256": "accf183849baadecc74ed3b05e45dab8d7bda83c26cf9091d40d67b8de76d99b",
+    "duration_seconds": 18.0,
+    "frames": 793800,
+    "sample_rate": 44100,
+    "channels": 2,
+    "pcm_bits": 16,
+    "sample_peak_dbfs": -16.4573,
+    "true_peak_dbtp": -16.38,
+    "rms_dbfs": -39.7795,
+    "integrated_lufs": -35.41,
+    "loudness_note": "Integrated LUFS is gated over the file; RMS dBFS is the exact full-file digital signal level.",
+    "clipped_samples": 0,
+    "dc_mean_per_channel": [
+      0.0,
+      0.0
+    ],
+    "decoded": true
+  }
+}
